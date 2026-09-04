@@ -1,0 +1,112 @@
+export const hi = {
+  // Navigation & Header
+  'nav.keyboardTest': 'कीबोर्ड परीक्षण (Keyboard Test)',
+  'nav.multiKeyTest': 'मल्टी-की परीक्षण (Multi-Key Test)',
+  'nav.typingTest': 'टाइपिंग परीक्षण (Typing Test)',
+  
+  // Home
+  'home.title': 'अपने कीबोर्ड का परीक्षण करें',
+  'home.subtitle': 'त्वरित दृश्य प्रतिक्रिया के साथ अपने भौतिक कीबोर्ड की प्रत्येक कुंजी की जाँच करें।\nपरीक्षण शुरू करने के लिए कोई भी कुंजी दबाएँ।',
+  
+  // Controls
+  'controls.layout': 'लेआउट (Layout)',
+  'controls.mode': 'मोड (Mode)',
+  'controls.reset': 'रीसेट (Reset)',
+  'controls.theme': 'थीम (Theme)',
+  'controls.theme.light': 'हल्का (Light)',
+  'controls.theme.dark': 'गहरा (Dark)',
+  'controls.theme.system': 'सिस्टम (System)',
+  'controls.language': 'भाषा (Language)',
+  
+  // Diagnostic Summary
+  'summary.coverage': 'कवरेज (Coverage)',
+  'summary.status.notStarted': 'शुरू नहीं हुआ',
+  'summary.status.testing': 'परीक्षण प्रगति पर है',
+  'summary.status.complete': 'पूरा हुआ',
+  'summary.status.incomplete': 'अधूरा',
+  'summary.status.issue': 'संभावित समस्या',
+  'summary.time': 'समय (Time)',
+  'summary.finishTest': 'परीक्षण समाप्त करें',
+  
+  // History
+  'history.title': 'परीक्षण इतिहास (Test History)',
+  'history.empty': 'अभी तक कोई परीक्षण दर्ज नहीं किया गया है।',
+  'history.clear': 'इतिहास साफ़ करें',
+  'history.downloadJson': 'JSON डाउनलोड करें',
+  'history.printReport': 'रिपोर्ट प्रिंट करें',
+  'history.compare': 'तुलना करें (Compare)',
+  
+  // Ghosting Test
+  'ghosting.title': 'मल्टी-की परीक्षण',
+  'ghosting.subtitle': 'की-रोलओवर और घोस्टिंग का परीक्षण करें। एक साथ कई कुंजियाँ दबाकर रखें।',
+  'ghosting.activeKeys': 'सक्रिय कुंजियाँ',
+  'ghosting.currentlyHeld': 'वर्तमान में दबाई गई',
+  'ghosting.maxSimultaneous': 'अधिकतम एक साथ दबाई गई कुंजियाँ',
+  'ghosting.detected': 'पहचानी गई कुंजियाँ',
+  'ghosting.empty': 'यहाँ देखने के लिए कुंजियों को दबाकर रखें।',
+  
+  // Typing Test
+  'typing.title': 'टाइपिंग परीक्षण',
+  'typing.subtitle': 'अपनी टाइपिंग गति और सटीकता मापें। आपके टाइप करना शुरू करते ही टाइमर शुरू हो जाएगा।',
+  'typing.wpm': 'WPM',
+  'typing.accuracy': 'सटीकता (Accuracy)',
+  'typing.timeRemaining': 'समय',
+  'typing.duration': 'अवधि (Duration)',
+  'typing.results': 'टाइपिंग परिणाम',
+  'typing.characters': 'अक्षर',
+  'typing.correct': 'सही',
+  'typing.incorrect': 'गलत',
+  'typing.tryAgain': 'पुनः प्रयास करें',
+  
+  // Footer
+  'footer.whatCanYouTest': 'आप क्या परीक्षण कर सकते हैं?',
+  'footer.primary': 'प्राथमिक',
+  'footer.keyboardTestDesc': 'व्यक्तिगत कुंजियों की जाँच करें और सत्यापित करें कि वे आपके ब्राउज़र में सही ढंग से पंजीकृत हैं।',
+  'footer.multiKeyTestDesc': 'एक साथ कुंजी इनपुट का परीक्षण करें और ब्राउज़र-स्तर के रोलओवर और घोस्टिंग व्यवहार का निरीक्षण करें।',
+  'footer.typingTestDesc': 'एक संरचित पाठ का उपयोग करके टाइपिंग गति और सटीकता को मापें।',
+  'footer.eventInspectorDesc': 'ब्राउज़र कीबोर्ड ईवेंट्स का सीधे निरीक्षण करें और देखें कि उन्हें कैसे प्रेषित किया जाता है।',
+  'footer.compareDesc': 'लेआउट या कवरेज में अंतर का मूल्यांकन करने के लिए दो अलग-अलग कीबोर्ड परीक्षण सत्रों की तुलना करें।',
+  'footer.howItWorks': 'यह कैसे काम करता है',
+  'footer.step1': 'अपने भौतिक कीबोर्ड पर कोई कुंजी दबाएँ।',
+  'footer.step2': 'ब्राउज़र को कुंजी ईवेंट प्राप्त होता है।',
+  'footer.step3': 'संबंधित भौतिक कुंजी हाइलाइट हो जाती है।',
+  'footer.step4': 'सभी उपलब्ध कुंजियों का परीक्षण करें।',
+  'footer.step5': 'नैदानिक परिणाम की समीक्षा करें।',
+  'footer.browserLimitations': 'ब्राउज़र की सीमाएँ',
+  'footer.limitationsDesc': 'वेबसाइटें ब्राउज़र द्वारा उजागर किए गए कीबोर्ड ईवेंट का पता लगा सकती हैं, लेकिन सीधे कीबोर्ड के इलेक्ट्रिकल सर्किट्री या स्विच हार्डवेयर का निरीक्षण नहीं कर सकती हैं। कुछ सिस्टम-स्तरीय कुंजियाँ (जैसे F1, F5, या PrintScreen) आपके ऑपरेटिंग सिस्टम और ब्राउज़र संयोजन के आधार पर अलग तरह से व्यवहार कर सकती हैं या ब्लॉक हो सकती हैं।',
+  
+  // Event Inspector
+  'inspector.title': 'ईवेंट इंस्पेक्टर (Event Inspector)',
+  'inspector.subtitle': 'रॉ कीबोर्ड ईवेंट्स की निगरानी करें ठीक वैसे ही जैसे ब्राउज़र उन्हें प्राप्त करता है।',
+  'inspector.eventsLogged': 'लॉग किए गए ईवेंट',
+  'inspector.diagnosticSession': 'डायग्नोस्टिक सत्र',
+  'inspector.startDiagnostic': 'निदान प्रारंभ करें',
+  'inspector.stopDiagnostic': 'निदान रोकें',
+  'inspector.pauseLog': 'लॉग रोकें',
+  'inspector.resumeLog': 'लॉग फिर से शुरू करें',
+  'inspector.clearLog': 'लॉग साफ़ करें',
+  'inspector.waiting': 'कीबोर्ड ईवेंट की प्रतीक्षा की जा रही है...',
+  'inspector.table.event': 'Event',
+  'inspector.table.key': 'Key',
+  'inspector.table.code': 'Code',
+  'inspector.table.keyCode': 'KeyCode',
+  'inspector.table.modifiers': 'Modifiers',
+  'inspector.table.repeat': 'Repeat',
+  'inspector.table.location': 'Location',
+  'inspector.table.timestamp': 'Timestamp',
+  'inspector.anomalies': 'विसंगतियाँ पाई गईं',
+  'inspector.noAnomalies': 'कोई विसंगति नहीं पाई गई।',
+  
+  // Compare
+  'compare.title': 'कीबोर्ड की तुलना करें',
+  'compare.subtitle': 'उनकी कुंजी कवरेज और लेआउट अंतर की तुलना करने के लिए दो पिछले परीक्षण सत्रों का चयन करें।',
+  'compare.selectFirst': 'पहला कीबोर्ड चुनें (बेस)',
+  'compare.selectSecond': 'दूसरा कीबोर्ड चुनें (तुलना)',
+  'compare.noHistory': 'कोई परीक्षण इतिहास उपलब्ध नहीं है। कृपया पहले कम से कम एक कीबोर्ड परीक्षण पूरा करें।',
+  'compare.comparisonResult': 'तुलना परिणाम',
+  'compare.uniqueToBase': 'बेस कीबोर्ड के लिए अद्वितीय',
+  'compare.uniqueToComparison': 'तुलना कीबोर्ड के लिए अद्वितीय',
+  'compare.sharedKeys': 'साझा कुंजियाँ (दोनों में)',
+  'compare.print': 'तुलना प्रिंट करें',
+  'compare.exportJson': 'JSON निर्यात करें'
+};

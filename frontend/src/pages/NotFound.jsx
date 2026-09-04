@@ -5,7 +5,8 @@ import { useSEO } from '../hooks/useSEO';
 const NotFound = () => {
   useSEO({
     title: 'Page Not Found | KeyCheck',
-    description: 'The page you are looking for does not exist.'
+    description: 'The page you are looking for does not exist.',
+    url: 'https://keycheck.example.com/404'
   });
 
   return (
@@ -13,7 +14,7 @@ const NotFound = () => {
       <h1 className="text-8xl font-black text-muted mb-2">404</h1>
       <h2 className="text-4xl font-bold tracking-tight text-primary uppercase mb-4">Page Not Found</h2>
       <p className="text-muted-foreground text-sm leading-relaxed mb-8">
-        The page you're looking for doesn't exist or has been moved.
+        The page you’re looking for doesn’t exist or has been moved.
       </p>
       <Link 
         to="/" 

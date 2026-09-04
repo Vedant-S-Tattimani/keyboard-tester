@@ -17,7 +17,7 @@ const DiagnosticSessionPanel = ({
   const hasStarted = startedAt !== null;
 
   return (
-    <div className="bg-card border border-border rounded-xl p-6 shadow-sm mb-6 flex flex-col gap-4 transition-all">
+    <div className="bg-card border border-border rounded-xl p-6 shadow-sm mb-6 flex flex-col gap-4 transition-[shadow,border-color]">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
           <h2 className="text-xl font-bold tracking-tight uppercase">Event Diagnostics</h2>
@@ -30,7 +30,7 @@ const DiagnosticSessionPanel = ({
           {!isActive && (
             <button
               onClick={onStart}
-              className="px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 font-bold uppercase tracking-wider text-xs rounded transition-colors"
+              className="px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 font-bold uppercase tracking-wider text-xs rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
             >
               Start Diagnostic
             </button>
@@ -38,7 +38,7 @@ const DiagnosticSessionPanel = ({
           {isActive && (
             <button
               onClick={onStop}
-              className="px-4 py-2 bg-amber-500/20 text-amber-500 hover:bg-amber-500/30 border border-amber-500/50 font-bold uppercase tracking-wider text-xs rounded transition-colors"
+              className="px-4 py-2 bg-amber-500/20 text-amber-500 hover:bg-amber-500/30 border border-amber-500/50 font-bold uppercase tracking-wider text-xs rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
             >
               Stop Diagnostic
             </button>
@@ -46,7 +46,7 @@ const DiagnosticSessionPanel = ({
           {hasStarted && !isActive && (
             <button
               onClick={onReset}
-              className="px-4 py-2 bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border font-bold uppercase tracking-wider text-xs rounded transition-colors"
+              className="px-4 py-2 bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border font-bold uppercase tracking-wider text-xs rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
             >
               Reset
             </button>
@@ -89,7 +89,7 @@ const DiagnosticSessionPanel = ({
           {(anomalies.length > 0 || holdDurations.length > 0) && (
             <button 
               onClick={() => setExpanded(!expanded)}
-              className="text-xs text-primary hover:underline font-bold uppercase tracking-wider text-left mt-2"
+              className="text-xs text-primary hover:underline font-bold uppercase tracking-wider text-start mt-2"
             >
               {expanded ? 'Hide Advanced Details' : 'Show Advanced Details'}
             </button>
@@ -100,7 +100,7 @@ const DiagnosticSessionPanel = ({
                 {anomalies.length > 0 && (
                    <div>
                       <h3 className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3">Detected Anomalies</h3>
-                      <div className="flex flex-col gap-2 max-h-64 overflow-y-auto pr-2">
+                      <div className="flex flex-col gap-2 max-h-64 overflow-y-auto pe-">
                          {anomalies.map((anom, idx) => (
                            <div key={idx} className="flex flex-col gap-1 text-sm bg-muted/20 border border-border p-3 rounded">
                               <div className="flex justify-between items-start">

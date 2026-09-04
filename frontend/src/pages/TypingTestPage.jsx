@@ -5,11 +5,13 @@ import TypingStats from '../components/TypingTest/TypingStats';
 import TypingResult from '../components/TypingTest/TypingResult';
 import { useTypingTest } from '../hooks/useTypingTest';
 import { useSEO } from '../hooks/useSEO';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const TypingTestPage = () => {
+  const { language, t } = useLanguage();
   useSEO({
-    title: 'Typing Test – Measure WPM & Accuracy Online | KeyCheck',
-    description: 'Take a free online typing test and measure your typing speed, WPM, accuracy, and performance.',
+    title: t('seo.typingtest.title', 'Typing Test – Check Your WPM and Accuracy | KeyCheck'),
+    description: t('seo.typingtest.desc', 'Measure your typing speed (WPM) and accuracy with our online typing test. Practice with various passages and improve your keyboard skills.'),
     url: 'https://keycheck.example.com/typing-test'
   });
   const {
@@ -24,7 +26,7 @@ const TypingTestPage = () => {
     status,
     changeDuration,
     resetTest
-  } = useTypingTest();
+  } = useTypingTest(language);
 
   if (status === 'finished') {
     return (
@@ -44,13 +46,13 @@ const TypingTestPage = () => {
   return (
     <div className="w-full flex flex-col items-center p-8 max-w-7xl mx-auto">
       <header className="mb-12 text-center max-w-2xl mx-auto space-y-2 mt-4 md:mt-12">
-        <h1 className="text-3xl font-bold tracking-tight text-primary uppercase">Typing Test</h1>
+        <h1 className="text-3xl font-bold tracking-tight text-primary uppercase">{t('typing.title')}</h1>
         <p className="text-muted-foreground text-sm">
-          Measure your typing speed and accuracy.
+          {t('typing.subtitle')}
         </p>
       </header>
 
-      <main className="w-full flex flex-col items-center">
+      <main id="main-content" className="w-full flex flex-col items-center">
         <DurationSelector 
           currentDuration={duration} 
           onSelect={changeDuration} 
@@ -74,7 +76,7 @@ const TypingTestPage = () => {
             onClick={resetTest}
             className="py-2 px-6 bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-md font-medium transition-colors border border-border focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background"
           >
-            Restart
+            {t('controls.reset')}
           </button>
         </div>
       </main>

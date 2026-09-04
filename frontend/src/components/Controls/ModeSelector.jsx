@@ -12,8 +12,9 @@ const ModeSelector = ({ activeMode, onChange }) => {
           <button
             key={mode.id}
             onClick={() => onChange(mode.id)}
+            aria-pressed={activeMode === mode.id}
             className={`
-              px-3 py-1.5 text-xs font-bold uppercase tracking-wider rounded-md transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-1 focus:ring-offset-background
+              px-3 py-1.5 text-xs font-bold uppercase tracking-wider rounded-md transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:ring-offset-background
               ${activeMode === mode.id 
                 ? 'bg-background text-foreground shadow-sm border border-border' 
                 : 'text-muted-foreground hover:text-foreground hover:bg-muted/80 border border-transparent'}

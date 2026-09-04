@@ -31,26 +31,26 @@ const ReportActions = ({ reportData, filename }) => {
     <div className="flex flex-wrap gap-3 mt-6 no-print">
       <button
         onClick={handlePrint}
-        className="flex-1 py-2 px-4 bg-primary text-primary-foreground hover:bg-primary/90 rounded-md text-xs font-bold uppercase tracking-wider transition-colors"
+        className="flex-1 py-2 px-4 bg-primary text-primary-foreground hover:bg-primary/90 rounded-md text-xs font-bold uppercase tracking-wider transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
       >
         Print / Save PDF
       </button>
       <button
         onClick={handleDownload}
-        className="flex-1 py-2 px-4 bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border rounded-md text-xs font-bold uppercase tracking-wider transition-colors"
+        className="flex-1 py-2 px-4 bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border rounded-md text-xs font-bold uppercase tracking-wider transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
       >
         Download JSON
       </button>
       <button
         onClick={handleCopy}
-        className="flex-1 py-2 px-4 bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border rounded-md text-xs font-bold uppercase tracking-wider transition-colors"
+        className="flex-1 py-2 px-4 bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border rounded-md text-xs font-bold uppercase tracking-wider transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
       >
         {copyStatus}
       </button>
       {shareSupported && (
         <button
           onClick={handleShare}
-          className="flex-1 py-2 px-4 bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border rounded-md text-xs font-bold uppercase tracking-wider transition-colors"
+          className="flex-1 py-2 px-4 bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border rounded-md text-xs font-bold uppercase tracking-wider transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
         >
           Share Report
         </button>

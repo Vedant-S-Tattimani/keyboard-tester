@@ -11,7 +11,7 @@ const EventLogTable = ({ events, selectedEventId, onSelectEvent }) => {
   return (
     <div className="w-full bg-card border border-border rounded-xl shadow-sm overflow-hidden flex flex-col h-[500px]">
       <div className="overflow-x-auto">
-        <table className="w-full text-left text-sm whitespace-nowrap">
+        <table className="w-full text-start text-sm whitespace-nowrap">
           <thead className="bg-muted/30 border-b border-border sticky top-0 z-10 backdrop-blur-sm">
             <tr>
               <th className="px-4 py-3 font-semibold w-24">Time</th>
@@ -26,7 +26,7 @@ const EventLogTable = ({ events, selectedEventId, onSelectEvent }) => {
       </div>
       
       <div className="overflow-y-auto flex-1 custom-scrollbar">
-        <table className="w-full text-left text-sm whitespace-nowrap">
+        <table className="w-full text-start text-sm whitespace-nowrap">
           <tbody>
             {events.length === 0 ? (
               <tr>
@@ -39,11 +39,14 @@ const EventLogTable = ({ events, selectedEventId, onSelectEvent }) => {
                 <tr 
                   key={e.id}
                   onClick={() => onSelectEvent(e.id)}
-                  className={`border-b border-border/50 cursor-pointer transition-colors ${
+                  onKeyDown={(evt) => { if (evt.key === 'Enter' || evt.key === ' ') { evt.preventDefault(); onSelectEvent(e.id); } }}
+                  tabIndex={0}
+                  className={`border-b border-border/50 cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset ${
                     selectedEventId === e.id 
                       ? 'bg-primary/10 hover:bg-primary/15' 
                       : 'hover:bg-muted/50'
                   }`}
+                  style={{ contentVisibility: 'auto' }}
                 >
                   <td className="px-4 py-2 font-mono text-muted-foreground text-xs w-24">{formatTime(e.timestamp)}</td>
                   <td className={`px-4 py-2 font-mono text-xs w-24 font-bold ${e.type === 'keydown' ? 'text-blue-500' : 'text-orange-500'}`}>

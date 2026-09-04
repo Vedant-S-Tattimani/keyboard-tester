@@ -3,7 +3,7 @@ import Key from './Key';
 
 const KeyboardRow = ({ keys, pressedKeys, testedKeys, activeModeKeys }) => {
   return (
-    <div className="flex justify-start w-full mb-[2px]">
+    <div className="flex justify-start w-full" style={{ marginBottom: '0.125em' }}>
       {keys.map((k, idx) => (
         <Key 
           key={k.code || `spacer-${idx}`} 

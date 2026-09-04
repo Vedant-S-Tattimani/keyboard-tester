@@ -28,7 +28,7 @@ const RemainingKeys = ({ requiredKeys, testedKeys }) => {
       {hiddenCount > 0 && !expanded && (
         <button 
           onClick={() => setExpanded(true)}
-          className="mt-3 text-[10px] text-primary hover:underline font-bold uppercase tracking-wider"
+          className="mt-3 text-[10px] text-primary hover:underline font-bold uppercase tracking-wider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-muted rounded px-1"
         >
           + Show {hiddenCount} more
         </button>
@@ -37,7 +37,7 @@ const RemainingKeys = ({ requiredKeys, testedKeys }) => {
       {expanded && hiddenCount > 0 && (
          <button 
           onClick={() => setExpanded(false)}
-          className="mt-3 text-[10px] text-primary hover:underline font-bold uppercase tracking-wider"
+          className="mt-3 text-[10px] text-primary hover:underline font-bold uppercase tracking-wider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-muted rounded px-1"
         >
           Show less
         </button>

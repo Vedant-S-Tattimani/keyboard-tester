@@ -1,11 +1,11 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { getRandomPassage } from '../utils/passages';
-import { calculateCorrectCharacters, calculateWPM, calculateAccuracy } from '../utils/typingUtils';
+import { getRandomPassage } from '../utils/typingPassages';
+import { calculateCorrectCharacters, calculateWPM, calculateAccuracy, splitGraphemes } from '../utils/typingUtils';
 
-export const useTypingTest = () => {
+export const useTypingTest = (language = 'en') => {
   const [duration, setDuration] = useState(30);
   const [timeRemaining, setTimeRemaining] = useState(30);
-  const [passage, setPassage] = useState(getRandomPassage());
+  const [passage, setPassage] = useState(getRandomPassage(language));
   const [userInput, setUserInput] = useState('');
   
   const [status, setStatus] = useState('idle'); // 'idle', 'running', 'paused', 'finished'
@@ -14,7 +14,7 @@ export const useTypingTest = () => {
 
   // Stats
   const correctCharacters = calculateCorrectCharacters(userInput, passage);
-  const totalCharacters = userInput.length;
+  const totalCharacters = splitGraphemes(userInput).length;
   const elapsedSeconds = duration - timeRemaining;
   const wpm = calculateWPM(correctCharacters, elapsedSeconds);
   const accuracy = calculateAccuracy(correctCharacters, totalCharacters);
@@ -31,14 +31,23 @@ export const useTypingTest = () => {
     if (timerRef.current) clearInterval(timerRef.current);
     setUserInput('');
     setTimeRemaining(duration);
+    setTimeRemaining(duration);
     setStatus('idle');
-    setPassage(getRandomPassage());
-  }, [duration]);
+    setPassage(getRandomPassage(language));
+  }, [duration, language]);
 
   const finishTest = useCallback(() => {
     if (timerRef.current) clearInterval(timerRef.current);
+    if (timerRef.current) clearInterval(timerRef.current);
     setStatus('finished');
   }, []);
+
+  // Update passage when language changes, but only if idle
+  useEffect(() => {
+    if (status === 'idle') {
+      setPassage(getRandomPassage(language));
+    }
+  }, [language]);
 
   // Timer Tick
   useEffect(() => {
@@ -90,7 +99,7 @@ export const useTypingTest = () => {
 
       if (key === 'Backspace') {
         e.preventDefault();
-        setUserInput(prev => prev.slice(0, -1));
+        setUserInput(prev => splitGraphemes(prev).slice(0, -1).join(''));
         return;
       }
 
@@ -104,7 +113,7 @@ export const useTypingTest = () => {
 
       setUserInput(prev => {
         const next = prev + key;
-        if (next.length >= passage.length) {
+        if (splitGraphemes(next).length >= splitGraphemes(passage).length) {
           finishTest();
         }
         return next;
@@ -115,7 +124,7 @@ export const useTypingTest = () => {
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
     };
-  }, [status, passage.length, finishTest]);
+  }, [status, passage, finishTest]);
 
   return {
     passage,

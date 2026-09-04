@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import RemainingKeys from './RemainingKeys';
 import DiagnosticReport from '../DiagnosticReport/DiagnosticReport';
 import { TEST_MODES } from '../Keyboard/keyboardModes';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const formatTime = (secs) => `${String(Math.floor(secs / 60)).padStart(2, '0')}:${String(secs % 60).padStart(2, '0')}`;
 
@@ -18,23 +19,24 @@ const DiagnosticSummary = ({
   onReset,
   onFinish
 }) => {
+  const { t } = useLanguage();
   const [showReport, setShowReport] = useState(false);
 
   let statusColor = 'text-muted-foreground';
-  let statusMessage = 'Waiting for input';
+  let statusMessage = t('summary.status.notStarted');
 
   if (status === 'TESTING') {
     statusColor = 'text-blue-500';
-    statusMessage = 'Test in progress...';
+    statusMessage = t('summary.status.testing');
   } else if (status === 'COMPLETE') {
     statusColor = 'text-green-500';
-    statusMessage = 'All testable keys registered';
+    statusMessage = t('summary.status.complete');
   } else if (status === 'INCOMPLETE') {
     statusColor = 'text-yellow-500';
-    statusMessage = 'Keyboard test incomplete';
+    statusMessage = t('summary.status.incomplete');
   } else if (status === 'POSSIBLE ISSUE') {
     statusColor = 'text-red-500';
-    statusMessage = 'Possible input limitation detected';
+    statusMessage = t('summary.status.issue');
   }
 
   const isFinished = status === 'COMPLETE' || status === 'INCOMPLETE' || status === 'POSSIBLE ISSUE';
@@ -44,17 +46,17 @@ const DiagnosticSummary = ({
       <div className="flex justify-between items-start mb-6">
         <div>
           <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-1 font-semibold">Diagnostic Summary</h2>
-          <p className={`text-sm font-bold ${statusColor}`}>{statusMessage}</p>
+          <p aria-live="polite" className={`text-sm font-bold ${statusColor}`}>{statusMessage}</p>
         </div>
-        <div className="text-right">
+        <div className="text-end">
           <span className="block text-2xl font-mono font-bold text-primary leading-none">{formatTime(elapsedTime)}</span>
-          <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold">Elapsed Time</span>
+          <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold">{t('summary.time')}</span>
         </div>
       </div>
 
       <div className="grid grid-cols-4 gap-4 mb-6">
         <div>
-          <span className="block text-[10px] text-muted-foreground uppercase tracking-widest mb-1">Coverage</span>
+          <span className="block text-[10px] text-muted-foreground uppercase tracking-widest mb-1">{t('summary.coverage')}</span>
           <span className="text-lg font-mono font-semibold">{testedCount} <span className="text-muted-foreground text-sm">/ {totalRequired}</span></span>
         </div>
         <div>
@@ -85,7 +87,7 @@ const DiagnosticSummary = ({
           onClick={onFinish}
           className="mb-4 w-full py-2 bg-secondary/50 text-secondary-foreground hover:bg-secondary rounded-md text-xs font-bold uppercase tracking-wider transition-colors"
         >
-          Finish Test Early
+          {t('summary.finishTest')}
         </button>
       )}
 

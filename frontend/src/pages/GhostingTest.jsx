@@ -3,11 +3,13 @@ import Keyboard from '../components/Keyboard/Keyboard';
 import LayoutSelector from '../components/Controls/LayoutSelector';
 import { useMultiKeyTest } from '../hooks/useMultiKeyTest';
 import { useSEO } from '../hooks/useSEO';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const GhostingTest = () => {
+  const { t } = useLanguage();
   useSEO({
-    title: 'Keyboard Ghosting Test – Test Key Rollover Online | KeyCheck',
-    description: 'Test simultaneous keyboard input and observe how many keys your browser receives at once.',
+    title: t('seo.ghostingtest.title', 'Keyboard Ghosting Test – Test Key Rollover Online | KeyCheck'),
+    description: t('seo.ghostingtest.desc', 'Test simultaneous keyboard input and observe how many keys your browser receives at once.'),
     url: 'https://keycheck.example.com/ghosting-test'
   });
   const { pressedKeys, maxSimultaneous, eventHistory, reset } = useMultiKeyTest();
@@ -18,27 +20,27 @@ const GhostingTest = () => {
   return (
     <div className="w-full flex flex-col items-center p-8">
       <header className="mb-8 text-center max-w-2xl mx-auto space-y-2 mt-4 md:mt-12">
-        <h1 className="text-3xl font-bold tracking-tight text-primary uppercase">Multi-Key Test</h1>
+        <h1 className="text-3xl font-bold tracking-tight text-primary uppercase">{t('ghosting.title')}</h1>
         <p className="text-muted-foreground text-sm">
-          Press multiple keys simultaneously to test browser event registration.
+          {t('ghosting.subtitle')}
         </p>
       </header>
       
-      <main className="w-full flex flex-col items-center gap-8">
+      <main id="main-content" className="w-full flex flex-col items-center gap-8">
         
         {/* Top Info Grid */}
         <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-6 mb-4">
           
           {/* Status Box */}
           <div className="flex flex-col p-6 bg-card border border-border rounded-xl shadow-sm justify-between">
-            <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-4 font-semibold">Test Observation</h2>
+            <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-4 font-semibold">{t('ghosting.testObservation', 'Test Observation')}</h2>
             <div className="mb-4">
-              <span className="block text-4xl font-mono font-semibold text-primary leading-none mb-1">{maxSimultaneous}</span>
-              <span className="text-sm font-semibold text-muted-foreground">Maximum simultaneous keys</span>
+              <span aria-live="polite" className="block text-4xl font-mono font-semibold text-primary leading-none mb-1">{maxSimultaneous}</span>
+              <span className="text-sm font-semibold text-muted-foreground">{t('ghosting.maxSimultaneous')}</span>
             </div>
             
             <div className="text-[11px] text-muted-foreground leading-relaxed p-3 bg-muted/30 rounded-lg border border-border/50">
-              <strong className="block mb-1 text-card-foreground">Browser key events received</strong>
+              <strong className="block mb-1 text-card-foreground">{t('ghosting.browserEvents', 'Browser key events received')}</strong>
               This test measures simultaneous key input successfully delivered to the browser.
             </div>
           </div>
@@ -46,7 +48,7 @@ const GhostingTest = () => {
           {/* Current Combination */}
           <div className="flex flex-col p-6 bg-card border border-border rounded-xl shadow-sm md:col-span-2">
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">Current Combination</h2>
+              <h2 className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">{t('ghosting.currentlyHeld')}</h2>
               <span className="text-sm font-mono text-muted-foreground bg-muted/50 px-2 py-1 rounded-md border border-border/50">
                 {pressedKeys.size} Held
               </span>
@@ -62,7 +64,7 @@ const GhostingTest = () => {
               ) : (
                 <div className="w-full h-full flex flex-col items-center justify-center text-muted-foreground opacity-50">
                   <span className="text-xl mb-1">—</span>
-                  <span className="text-sm">Waiting for keys...</span>
+                  <span className="text-sm">{t('ghosting.empty')}</span>
                 </div>
               )}
             </div>
@@ -81,8 +83,8 @@ const GhostingTest = () => {
           
           {/* History Panel */}
           <div className="flex flex-col p-6 bg-card border border-border rounded-xl shadow-sm h-80">
-            <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-4 font-semibold">Input History</h2>
-            <div className="flex-1 overflow-y-auto space-y-1 pr-2 font-mono text-xs">
+            <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-4 font-semibold">{t('ghosting.inputHistory', 'Input History')}</h2>
+            <div className="flex-1 overflow-y-auto space-y-1 pe-2 font-mono text-xs">
               {eventHistory.length > 0 ? (
                 eventHistory.map(evt => (
                   <div key={evt.id} className="flex justify-between py-1 border-b border-border/50 last:border-0">
@@ -93,14 +95,14 @@ const GhostingTest = () => {
                   </div>
                 ))
               ) : (
-                <div className="text-muted-foreground opacity-50 text-center mt-8">No history yet</div>
+                <div className="text-muted-foreground opacity-50 text-center mt-8">{t('ghosting.noHistory', 'No history yet')}</div>
               )}
             </div>
           </div>
 
           {/* Education Panel */}
           <div className="flex flex-col p-6 bg-card border border-border rounded-xl shadow-sm md:col-span-2">
-            <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-4 font-semibold">What is Keyboard Ghosting?</h2>
+            <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-4 font-semibold">{t('ghosting.whatIsGhosting', 'What is Keyboard Ghosting?')}</h2>
             
             <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
               <p>
@@ -126,7 +128,7 @@ const GhostingTest = () => {
             onClick={reset}
             className="w-full py-3 px-6 bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-md font-medium transition-colors border border-border focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background"
           >
-            Reset Test
+            {t('controls.reset')}
           </button>
         </div>
 

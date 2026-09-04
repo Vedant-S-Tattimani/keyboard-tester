@@ -8,8 +8,8 @@ const Keyboard = ({ pressedKeys, testedKeys, activeModeKeys }) => {
   const activeLayout = layouts[layout] || layouts['QWERTY'];
 
   return (
-    <div className="w-full max-w-max mx-auto bg-card p-6 rounded-xl border border-border shadow-sm overflow-x-auto relative">
-      <div className="min-w-[1100px] flex flex-col">
+    <div className="w-full @container mx-auto bg-card p-2 sm:p-6 rounded-xl border border-border shadow-sm flex justify-center relative" dir="ltr">
+      <div className="flex flex-col" style={{ fontSize: 'clamp(4px, 1.25cqw, 16px)' }}>
         {activeLayout.map((row, index) => (
           <KeyboardRow 
             key={`row-${index}`} 

@@ -54,7 +54,7 @@ const ComparisonTable = ({ kA, kB }) => {
 
       {/* Table */}
       <div className="overflow-x-auto w-full border border-border rounded-lg shadow-sm">
-        <table className="w-full text-left border-collapse text-sm">
+        <table className="w-full text-start border-collapse text-sm">
           <thead>
             <tr className="bg-muted/30 border-b border-border">
               <th className="p-4 font-bold text-xs uppercase tracking-wider text-muted-foreground w-1/3">Metric</th>

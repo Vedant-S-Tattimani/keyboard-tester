@@ -6,11 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- MVP SEO Reqs -->
-    <title>Keyboard Tester – Test Your Keyboard Online</title>
-    <meta name="description" content="Test your physical keyboard online. Press every key and see it detected instantly with our interactive keyboard tester." />
+    <title>KeyCheck — Web-Based Keyboard Tester and Diagnostic Tool</title>
+    <meta name="description" content="Test your keyboard online. KeyCheck provides instant visual feedback, ghosting tests, typing tests, and raw event inspection entirely within your browser." />
     
   </head>
   <body>
+    <script>
+      (function() {
+        try {
+          var theme = localStorage.getItem('keyboard_tester_theme');
+          if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches) || (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

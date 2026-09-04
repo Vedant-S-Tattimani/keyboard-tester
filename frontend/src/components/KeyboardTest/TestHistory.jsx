@@ -1,29 +1,34 @@
 import React from 'react';
 
+import { useLanguage } from '../../contexts/LanguageContext';
+
 const formatTime = (secs) => `${String(Math.floor(secs / 60)).padStart(2, '0')}:${String(secs % 60).padStart(2, '0')}`;
 
 const TestHistory = ({ history, onClear }) => {
+  const { t } = useLanguage();
   if (!history || history.length === 0) return null;
 
   return (
     <div className="w-full mt-12 mb-8">
       <div className="flex justify-between items-end mb-4">
-        <h2 className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">Recent Tests</h2>
-        <button 
-          onClick={() => {
-            if (window.confirm('Are you sure you want to clear your local test history?')) {
-              onClear();
-            }
-          }}
-          className="text-[10px] text-red-500 hover:text-red-400 uppercase tracking-wider font-bold transition-colors"
-        >
-          Clear History
-        </button>
+        <h2 className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">{t('history.title')}</h2>
+        <div className="flex gap-2">
+          <button 
+            onClick={() => {
+              if (window.confirm('Are you sure you want to clear your local test history?')) {
+                onClear();
+              }
+            }}
+            className="px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-red-500 hover:bg-red-500/10 rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+          >
+            {t('history.clear')}
+          </button>
+        </div>
       </div>
       
       <div className="bg-card border border-border rounded-xl shadow-sm overflow-hidden">
         <div className="overflow-x-auto">
-          <table className="w-full text-sm text-left">
+          <table className="w-full text-sm text-start">
             <thead className="text-[10px] text-muted-foreground uppercase tracking-widest bg-muted/20 border-b border-border">
               <tr>
                 <th className="px-4 py-3 font-semibold">Date</th>
@@ -59,7 +64,7 @@ const TestHistory = ({ history, onClear }) => {
                         session.status === 'INCOMPLETE' ? 'bg-yellow-500/10 text-yellow-500' :
                         'bg-red-500/10 text-red-500'
                       }`}>
-                        {session.status}
+                        {session.status === 'COMPLETE' ? t('summary.status.complete') : session.status === 'INCOMPLETE' ? t('summary.status.incomplete') : t('summary.status.issue')}
                       </span>
                     </td>
                   </tr>

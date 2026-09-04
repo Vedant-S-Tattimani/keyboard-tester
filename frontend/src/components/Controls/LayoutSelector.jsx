@@ -11,7 +11,7 @@ const LayoutSelector = () => {
         <button
           key={option}
           onClick={() => setLayout(option)}
-          className={`px-3 py-1 text-xs font-bold uppercase tracking-wider rounded transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-1 focus:ring-offset-card ${
+          className={`px-3 py-1 text-xs font-bold uppercase tracking-wider rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1 focus-visible:ring-offset-card ${
             layout === option
               ? 'bg-primary text-primary-foreground'
               : 'text-muted-foreground hover:bg-muted/50 hover:text-foreground'
