@@ -1,0 +1,60 @@
+/* Print Styles for Diagnostic Report */
+@media print {
+  @page {
+    margin: 2cm;
+    size: auto;
+  }
+
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  /* Hide everything by default in print mode */
+  body > * {
+    display: none !important;
+  }
+
+  /* Specifically hide navigation, selectors, buttons */
+  .no-print {
+    display: none !important;
+  }
+
+  /* Only display the report container */
+  .print-report-container {
+    display: block !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .print-report {
+    display: block !important;
+    color: black !important;
+    background: white !important;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .print-report * {
+    color: black !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border-color: #ccc !important;
+  }
+
+  .print-report h1, .print-report h2, .print-report h3 {
+    page-break-after: avoid;
+  }
+
+  .print-report .page-break-inside-avoid {
+    page-break-inside: avoid;
+  }
+
+  /* Ensure background borders print correctly */
+  .print-report .border {
+    border: 1px solid #ccc !important;
+  }
+}

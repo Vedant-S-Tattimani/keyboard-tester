@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://keycheck.example.com/sitemap.xml
