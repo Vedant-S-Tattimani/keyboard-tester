@@ -16,6 +16,7 @@ import KeyboardLayouts from './pages/KeyboardLayouts';
 import Accessibility from './pages/Accessibility';
 import Privacy from './pages/Privacy';
 import Footer from './components/Footer';
+import OfflineBanner from './components/OfflineBanner';
 import './styles/print.css';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
               >
                 Skip to main content
               </a>
+              <OfflineBanner />
               <Header />
               <Routes>
                 {/* Language subpaths: /:lang, /:lang/ghosting-test, etc. */}

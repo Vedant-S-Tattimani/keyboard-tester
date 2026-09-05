@@ -116,27 +116,39 @@ function buildHtmlForLocale(lang, isRoot = false) {
   `).join('');
 
   const serverFallback = `
-    <header style="text-align: center; margin: 2rem auto 1.5rem; padding: 0 1rem; max-width: 48rem;">
-      <h1 style="font-size: 1.875rem; font-weight: 700; text-transform: uppercase;">${data.h1}</h1>
-      <p style="color: #6b7280; font-size: 0.875rem; line-height: 1.6; margin-top: 0.75rem;">${data.twoLineBio}</p>
-    </header>
-    <main style="max-width: 56rem; margin: 0 auto; padding: 1rem;">
-      <section style="margin-top: 2rem;">
-        <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem;">${data.guide.title}</h2>
-        ${sectionsHtml}
-        <nav style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #e5e7eb; display: flex; gap: 1rem; flex-wrap: wrap;">
-          <a href="${langPrefix}/ghosting-test" style="font-size: 0.875rem; color: #2563eb; text-decoration: underline;">Multi-Key Ghosting Test</a>
-          <a href="${langPrefix}/typing-test" style="font-size: 0.875rem; color: #2563eb; text-decoration: underline;">Typing Speed Test (WPM)</a>
-          <a href="${langPrefix}/event-inspector" style="font-size: 0.875rem; color: #2563eb; text-decoration: underline;">Keyboard Event Inspector</a>
-        </nav>
-      </section>
-      <section style="margin-top: 2.5rem;">
-        <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem;">${data.faq.title}</h2>
-        <dl>
-          ${faqHtml}
-        </dl>
-      </section>
-    </main>
+    <div style="width: 100%; padding: 2rem 1rem; display: flex; flex-direction: column; align-items: center;">
+      <header style="text-align: center; margin: 1rem auto 2.5rem; padding: 0 1rem; max-width: 48rem;">
+        <h1 style="font-size: 1.875rem; font-weight: 700; text-transform: uppercase; letter-spacing: -0.025em;">${data.h1}</h1>
+        <p style="color: #6b7280; font-size: 0.875rem; line-height: 1.6; margin-top: 0.75rem; white-space: pre-line;">${data.twoLineBio}</p>
+      </header>
+
+      <!-- Pre-rendered Keyboard Placeholder (Mirrors exact layout so text never flashes at top) -->
+      <div style="width: 100%; max-width: 1240px; margin: 0 auto 0.75rem; height: 48px; border-radius: 0.75rem; border: 1px solid rgba(125, 125, 125, 0.18); background: rgba(125, 125, 125, 0.03);"></div>
+      <div style="width: 100%; max-width: 1240px; min-height: 360px; margin: 0 auto; border-radius: 1rem; border: 1px solid rgba(125, 125, 125, 0.18); background: rgba(125, 125, 125, 0.02); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.75rem; color: #6b7280; font-family: sans-serif;">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.6;"><rect x="2" y="4" width="20" height="16" rx="2"/><line x1="6" y1="8" x2="6" y2="8"/><line x1="10" y1="8" x2="10" y2="8"/><line x1="14" y1="8" x2="14" y2="8"/><line x1="18" y1="8" x2="18" y2="8"/><line x1="6" y1="12" x2="6" y2="12"/><line x1="10" y1="12" x2="10" y2="12"/><line x1="14" y1="12" x2="14" y2="12"/><line x1="18" y1="12" x2="18" y2="12"/><line x1="7" y1="16" x2="17" y2="16"/></svg>
+        <span style="font-size: 0.8125rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.75;">Interactive Keyboard Ready</span>
+      </div>
+      <div style="width: 100%; max-width: 1024px; min-height: 110px; margin: 1.5rem auto; border-radius: 0.75rem; border: 1px solid rgba(125, 125, 125, 0.15); background: rgba(125, 125, 125, 0.02);"></div>
+
+      <!-- Pre-rendered SEO Guide & FAQ (Positioned below the keyboard where it naturally lives) -->
+      <main style="width: 100%; max-width: 64rem; margin: 2rem auto 0; text-align: left;">
+        <section style="margin-top: 2rem;">
+          <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem;">${data.guide.title}</h2>
+          ${sectionsHtml}
+          <nav style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid rgba(125, 125, 125, 0.2); display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="${langPrefix}/ghosting-test" style="font-size: 0.875rem; color: #2563eb; text-decoration: underline;">Multi-Key Ghosting Test</a>
+            <a href="${langPrefix}/typing-test" style="font-size: 0.875rem; color: #2563eb; text-decoration: underline;">Typing Speed Test (WPM)</a>
+            <a href="${langPrefix}/event-inspector" style="font-size: 0.875rem; color: #2563eb; text-decoration: underline;">Keyboard Event Inspector</a>
+          </nav>
+        </section>
+        <section style="margin-top: 2.5rem;">
+          <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem;">${data.faq.title}</h2>
+          <dl>
+            ${faqHtml}
+          </dl>
+        </section>
+      </main>
+    </div>
   `;
 
   html = html.replace(/<div\s+id="root">\s*<\/div>/i, `<div id="root">${serverFallback}</div>`);
