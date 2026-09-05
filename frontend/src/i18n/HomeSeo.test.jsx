@@ -25,17 +25,17 @@ describe('International Home SEO Content & Component Verification', () => {
       expect(Array.isArray(data.semanticKeywords)).toBe(true);
       expect(data.semanticKeywords.length).toBeGreaterThanOrEqual(5);
 
-      // Guide: 5 sections
+      // Guide: at least 5 sections
       expect(data.guide).toBeDefined();
-      expect(data.guide.sections).toHaveLength(5);
+      expect(data.guide.sections.length).toBeGreaterThanOrEqual(5);
       data.guide.sections.forEach((s) => {
         expect(s.heading.length).toBeGreaterThan(0);
         expect(s.content.length).toBeGreaterThan(20);
       });
 
-      // FAQ: 5 items
+      // FAQ: at least 5 items
       expect(data.faq).toBeDefined();
-      expect(data.faq.items).toHaveLength(5);
+      expect(data.faq.items.length).toBeGreaterThanOrEqual(5);
       data.faq.items.forEach((item) => {
         expect(item.q.length).toBeGreaterThan(0);
         expect(item.a.length).toBeGreaterThan(15);

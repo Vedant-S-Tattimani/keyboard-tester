@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { homeSeoContent } from '../i18n/content/homeSeoContent';
 
 function HomeSeoSection() {
-  const { language } = useLanguage();
+  const { language, getLocalizedPath } = useLanguage();
   const content = homeSeoContent[language] || homeSeoContent.en;
 
   return (
@@ -25,7 +26,7 @@ function HomeSeoSection() {
             <article 
               key={idx} 
               className={`p-5 rounded-xl bg-muted/20 border border-border/60 space-y-2.5 ${
-                idx === 4 ? 'md:col-span-2' : ''
+                idx === content.guide.sections.length - 1 ? 'md:col-span-2' : ''
               }`}
             >
               <h3 className="text-sm font-semibold text-foreground flex items-center gap-2">
@@ -37,8 +38,45 @@ function HomeSeoSection() {
               <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
                 {section.content}
               </p>
+              {/* Contextual internal link for multi-key rollover */}
+              {idx === 4 && (
+                <div className="pt-2">
+                  <Link 
+                    to={getLocalizedPath('/ghosting-test')} 
+                    className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary hover:underline"
+                  >
+                    <span>Multi-Key Ghosting Test</span>
+                    <span aria-hidden="true">&rarr;</span>
+                  </Link>
+                </div>
+              )}
             </article>
           ))}
+        </div>
+
+        {/* Quick Diagnostic Links Bar */}
+        <div className="mt-8 pt-6 border-t border-border/50 flex flex-wrap gap-4 items-center justify-between text-xs text-muted-foreground">
+          <span className="font-semibold uppercase tracking-wider text-card-foreground">Related Diagnostic Tools:</span>
+          <div className="flex flex-wrap gap-3">
+            <Link 
+              to={getLocalizedPath('/ghosting-test')} 
+              className="px-3 py-1.5 rounded-lg bg-muted/40 hover:bg-muted/80 text-foreground transition-colors font-medium"
+            >
+              Multi-Key Rollover Test
+            </Link>
+            <Link 
+              to={getLocalizedPath('/typing-test')} 
+              className="px-3 py-1.5 rounded-lg bg-muted/40 hover:bg-muted/80 text-foreground transition-colors font-medium"
+            >
+              Typing Speed Test (WPM)
+            </Link>
+            <Link 
+              to={getLocalizedPath('/event-inspector')} 
+              className="px-3 py-1.5 rounded-lg bg-muted/40 hover:bg-muted/80 text-foreground transition-colors font-medium"
+            >
+              Event Inspector
+            </Link>
+          </div>
         </div>
       </div>
 
