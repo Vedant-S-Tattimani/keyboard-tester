@@ -5,8 +5,8 @@ export const es = {
   'nav.typingTest': 'Prueba de Escritura',
   
   // Home
-  'home.title': 'Prueba Tu Teclado',
-  'home.subtitle': 'Comprueba cada tecla de tu teclado físico con retroalimentación visual instantánea.\nPresiona cualquier tecla para comenzar la prueba.',
+  'home.title': 'Prueba tu Teclado',
+  'home.subtitle': 'Realiza una prueba de teclado online gratis para verificar cada tecla en tiempo real.\nDetecta teclas que no responden, atascadas o con fallos directamente en tu navegador.',
   
   // Controls
   'controls.layout': 'Diseño',
@@ -111,8 +111,8 @@ export const es = {
   'compare.exportJson': 'Exportar JSON',
 
   // SEO & Informational Pages
-  'seo.home.title': 'Probador de Teclado – Prueba Tu Teclado en Línea | KeyCheck',
-  'seo.home.desc': 'Prueba tu teclado físico en línea con retroalimentación visual instantánea. Verifica cada tecla, prueba pulsaciones simultáneas y confirma su correcto funcionamiento.',
+  'seo.home.title': 'Prueba de Teclado Online – Test de Teclado y Teclas | KeyCheck',
+  'seo.home.desc': 'Haz una prueba de teclado online gratis y verifica cada tecla en tiempo real. Detecta teclas atascadas, teclas que no responden o fallos en tu navegador.',
   'seo.ghostingtest.title': 'Prueba de Ghosting de Teclado – Prueba Key Rollover Online | KeyCheck',
   'seo.ghostingtest.desc': 'Prueba la entrada simultánea de teclas y observa cuántas teclas recibe tu navegador al mismo tiempo.',
   'seo.typingtest.title': 'Prueba de Mecanografía – Mide tus PPM y Precisión | KeyCheck',

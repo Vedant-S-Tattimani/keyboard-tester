@@ -5,8 +5,8 @@ export const id = {
   'nav.typingTest': 'Tes Mengetik',
   
   // Home
-  'home.title': 'Uji Keyboard Anda',
-  'home.subtitle': 'Periksa setiap tombol pada keyboard fisik Anda dengan umpan balik visual instan. \nTekan tombol apa saja untuk mulai menguji.',
+  'home.title': 'Tes Keyboard Anda',
+  'home.subtitle': 'Uji performa dan tes keyboard online secara gratis untuk memeriksa setiap tombol.\nTemukan tombol yang macet, tidak merespons, atau error langsung melalui browser Anda.',
   
   // Controls
   'controls.layout': 'Tata Letak',
@@ -126,8 +126,8 @@ export const id = {
   'compare.exportJson': 'Ekspor JSON',
 
   // SEO & Informational Pages
-  'seo.home.title': 'Tes Keyboard – Uji Keyboard Anda Secara Online | KeyCheck',
-  'seo.home.desc': 'Uji keyboard fisik Anda secara online dengan umpan balik visual instan. Periksa setiap tombol, tes input simultan, dan pastikan keyboard berfungsi baik.',
+  'seo.home.title': 'Tes Keyboard Online – Cek Keyboard Laptop & PC Cepat | KeyCheck',
+  'seo.home.desc': 'Tes keyboard online gratis untuk cek semua tombol laptop dan PC secara real time. Temukan tombol keyboard yang rusak, macet, atau tidak merespons di browser.',
   'seo.ghostingtest.title': 'Tes Ghosting Keyboard – Uji Key Rollover Online | KeyCheck',
   'seo.ghostingtest.desc': 'Uji input keyboard simultan dan amati berapa banyak tombol yang dapat dideteksi browser Anda secara bersamaan.',
   'seo.typingtest.title': 'Tes Mengetik – Periksa WPM dan Akurasi Anda | KeyCheck',

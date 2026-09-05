@@ -38,7 +38,7 @@ describe('Multi-Language Routing & Hreflang Component Test', () => {
     render(<App />);
     
     await waitFor(() => {
-      expect(screen.getByText(/subukan ang iyong keyboard/i)).toBeDefined();
+      expect(screen.getByRole('heading', { name: /subukan ang iyong keyboard/i, level: 1 })).toBeDefined();
       expect(document.documentElement.lang).toBe('fil');
     });
   });
@@ -48,7 +48,7 @@ describe('Multi-Language Routing & Hreflang Component Test', () => {
     render(<App />);
     
     await waitFor(() => {
-      expect(screen.getByText(/ทดสอบคีย์บอร์ดของคุณ/i)).toBeDefined();
+      expect(screen.getByRole('heading', { name: /ทดสอบคีย์บอร์ดของคุณ/i, level: 1 })).toBeDefined();
       expect(document.documentElement.lang).toBe('th');
     });
   });
@@ -58,7 +58,7 @@ describe('Multi-Language Routing & Hreflang Component Test', () => {
     render(<App />);
     
     await waitFor(() => {
-      expect(screen.getByText(/перевірте вашу клавіатуру/i)).toBeDefined();
+      expect(screen.getByRole('heading', { name: /перевірте свою клавіатуру/i, level: 1 })).toBeDefined();
       expect(document.documentElement.lang).toBe('uk');
     });
   });
@@ -68,7 +68,7 @@ describe('Multi-Language Routing & Hreflang Component Test', () => {
     render(<App />);
     
     await waitFor(() => {
-      expect(screen.getByText(/uji keyboard anda/i)).toBeDefined();
+      expect(screen.getByRole('heading', { name: /tes keyboard anda/i, level: 1 })).toBeDefined();
       expect(document.documentElement.lang).toBe('id');
     });
   });

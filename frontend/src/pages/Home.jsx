@@ -11,6 +11,7 @@ import { useLayout } from '../hooks/useLayout';
 import { getAllModeKeys } from '../components/Keyboard/keyboardUtils';
 import { useSEO } from '../hooks/useSEO';
 import { useLanguage } from '../contexts/LanguageContext';
+import HomeSeoSection from '../components/HomeSeoSection';
 
 function Home() {
   const { t, getLocalizedPath } = useLanguage();
@@ -97,6 +98,8 @@ function Home() {
             <MouseCheck />
           </div>
         </div>
+
+        <HomeSeoSection />
       </main>
 
       <footer className="w-full max-w-5xl mt-24 border-t border-border/50 pt-12 text-center">

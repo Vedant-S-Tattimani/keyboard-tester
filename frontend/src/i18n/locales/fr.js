@@ -5,8 +5,8 @@ export const fr = {
   'nav.typingTest': 'Test de Frappe',
   
   // Home
-  'home.title': 'Testez Votre Clavier',
-  'home.subtitle': 'Vérifiez chaque touche de votre clavier physique avec un retour visuel instantané.\nAppuyez sur n\'importe quelle touche pour commencer le test.',
+  'home.title': 'Testez votre Clavier',
+  'home.subtitle': 'Testez votre clavier en ligne gratuitement et vérifiez chaque touche en temps réel.\nRepérez instantanément les touches inactives, bloquées ou défaillantes directement dans votre navigateur.',
   
   // Controls
   'controls.layout': 'Disposition',
@@ -111,8 +111,8 @@ export const fr = {
   'compare.exportJson': 'Exporter JSON',
 
   // SEO & Informational Pages
-  'seo.home.title': 'Testeur de Clavier – Testez Votre Clavier en Ligne | KeyCheck',
-  'seo.home.desc': 'Testez votre clavier physique en ligne avec un retour visuel instantané. Vérifiez chaque touche, testez la saisie simultanée et validez son bon fonctionnement.',
+  'seo.home.title': 'Test Clavier en Ligne – Tester les Touches de Clavier | KeyCheck',
+  'seo.home.desc': 'Faites un test de clavier en ligne gratuit pour vérifier chaque touche en temps réel. Détectez les touches bloquées, inactives ou défectueuses dans votre navigateur.',
   'seo.ghostingtest.title': 'Test de Ghosting Clavier – Test Key Rollover en Ligne | KeyCheck',
   'seo.ghostingtest.desc': 'Testez la saisie simultanée et observez combien de touches votre navigateur reçoit en même temps.',
   'seo.typingtest.title': 'Test de Vitesse de Frappe – Testez Vos MPM et Précision | KeyCheck',

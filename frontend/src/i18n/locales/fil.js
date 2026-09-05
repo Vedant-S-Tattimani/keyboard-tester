@@ -6,7 +6,7 @@ export const fil = {
   
   // Home
   'home.title': 'Subukan ang Iyong Keyboard',
-  'home.subtitle': 'Suriin ang bawat pindutan sa iyong pisikal na keyboard nang may agarang visual na feedback. \nPumindot ng kahit anong buton upang magsimula.',
+  'home.subtitle': 'Subukan ang iyong keyboard online nang libre at suriin ang bawat pindutan sa real time.\nTukuyin agad ang mga pindutang hindi gumagana o nagla-lag diretso sa iyong browser.',
   
   // Controls
   'controls.layout': 'Layout',
@@ -126,8 +126,8 @@ export const fil = {
   'compare.exportJson': 'I-export ang JSON',
 
   // SEO & Informational Pages
-  'seo.home.title': 'Pagsusuri ng Keyboard – Subukan ang Iyong Keyboard Online | KeyCheck',
-  'seo.home.desc': 'Subukan ang iyong pisikal na keyboard online nang may agarang visual na feedback. Suriin ang bawat buton, rollover, at tiyaking gumagana nang maayos.',
+  'seo.home.title': 'Keyboard Test Online – Subukan at I-check ang Keyboard | KeyCheck',
+  'seo.home.desc': 'Subukan ang iyong keyboard online nang libre. I-check ang bawat pindutan sa real time at tukuyin ang mga sirang keys o stuck buttons sa browser.',
   'seo.ghostingtest.title': 'Keyboard Ghosting Test – Subukan ang Key Rollover Online | KeyCheck',
   'seo.ghostingtest.desc': 'Subukan ang sabay-sabay na pagpindot sa keyboard at alamin kung ilang buton ang kayang tanggapin ng iyong browser nang sabay.',
   'seo.typingtest.title': 'Pagsusuri sa Pagta-type – Suriin ang Iyong WPM at Katumpakan | KeyCheck',

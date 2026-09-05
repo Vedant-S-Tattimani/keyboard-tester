@@ -6,7 +6,7 @@ export const en = {
   
   // Home
   'home.title': 'Test Your Keyboard',
-  'home.subtitle': 'Check every key on your physical keyboard with instant visual feedback. \nPress any key to begin testing.',
+  'home.subtitle': 'Test your keyboard online for free and check every key in real time.\nFind keys that are not responding, stuck, or behaving incorrectly right in your browser.',
   
   // Controls
   'controls.layout': 'Layout',
