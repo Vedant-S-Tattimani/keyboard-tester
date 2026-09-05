@@ -4,32 +4,15 @@ const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(() => {
-    return localStorage.getItem('keyboard_tester_theme') || 'system';
+    const saved = localStorage.getItem('keyboard_tester_theme');
+    return saved === 'light' ? 'light' : 'dark';
   });
 
   useEffect(() => {
     const root = window.document.documentElement;
-    
-    const applyTheme = (currentTheme) => {
-      root.classList.remove('light', 'dark');
-      
-      if (currentTheme === 'system') {
-        const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        root.classList.add(systemTheme);
-      } else {
-        root.classList.add(currentTheme);
-      }
-    };
-
-    applyTheme(theme);
+    root.classList.remove('light', 'dark');
+    root.classList.add(theme);
     localStorage.setItem('keyboard_tester_theme', theme);
-
-    if (theme === 'system') {
-      const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-      const handleChange = () => applyTheme('system');
-      mediaQuery.addEventListener('change', handleChange);
-      return () => mediaQuery.removeEventListener('change', handleChange);
-    }
   }, [theme]);
 
   return (

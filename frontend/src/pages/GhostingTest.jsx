@@ -1,6 +1,7 @@
 import React from 'react';
 import Keyboard from '../components/Keyboard/Keyboard';
 import LayoutSelector from '../components/Controls/LayoutSelector';
+import PlatformSelector from '../components/Controls/PlatformSelector';
 import { useMultiKeyTest } from '../hooks/useMultiKeyTest';
 import { useSEO } from '../hooks/useSEO';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -73,8 +74,25 @@ const GhostingTest = () => {
         </div>
 
         {/* The Visual Keyboard */}
-        <div className="w-full max-w-max mx-auto flex flex-col gap-4 items-end">
-          <LayoutSelector />
+        <div className="w-full max-w-[1240px] flex flex-col gap-4 items-stretch">
+          <div className="w-full flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div className="flex items-center gap-2 bg-card p-1.5 rounded-xl border border-border shadow-sm flex-wrap">
+              <LayoutSelector embedded />
+              <div className="h-6 w-[1.5px] bg-neutral-400 dark:bg-neutral-500 mx-1.5 self-center shrink-0" />
+              <PlatformSelector embedded />
+            </div>
+
+            <button
+              onClick={reset}
+              className="px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xl bg-card hover:bg-muted text-foreground border border-border shadow-sm transition-colors flex items-center gap-1.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary hover:border-primary/40 shrink-0"
+              aria-label="Reset test"
+            >
+              <svg className="w-3.5 h-3.5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+              </svg>
+              <span>{t('controls.reset', 'Reset')}</span>
+            </button>
+          </div>
           <Keyboard pressedKeys={pressedKeys} testedKeys={new Set()} />
         </div>
 

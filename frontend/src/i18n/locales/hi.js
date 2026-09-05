@@ -108,5 +108,34 @@ export const hi = {
   'compare.uniqueToComparison': 'तुलना कीबोर्ड के लिए अद्वितीय',
   'compare.sharedKeys': 'साझा कुंजियाँ (दोनों में)',
   'compare.print': 'तुलना प्रिंट करें',
-  'compare.exportJson': 'JSON निर्यात करें'
+  'compare.exportJson': 'JSON निर्यात करें',
+
+  // SEO & Informational Pages
+  'seo.keyboardLimitations.title': 'कीबोर्ड की सीमाएँ — ब्राउज़र कीबोर्ड परीक्षण क्या पहचान सकते हैं',
+  'seo.keyboardLimitations.desc': 'ब्राउज़र-आधारित कीबोर्ड परीक्षण की तकनीकी सीमाओं को समझें।',
+  'seo.howTestingWorks.title': 'कीबोर्ड परीक्षण कैसे काम करता है — ब्राउज़र ईवेंट निदान',
+  'seo.howTestingWorks.desc': 'जानें कि ब्राउज़र KeyboardEvents भौतिक कुंजी दबाने को डेटा में कैसे बदलते हैं।',
+  'seo.keyboardLayouts.title': 'कीबोर्ड लेआउट — भौतिक बनाम तार्किक कुंजी मैपिंग',
+  'seo.keyboardLayouts.desc': 'जानें कि विभिन्न भौतिक कीबोर्ड लेआउट ऑपरेटिंग सिस्टम के साथ कैसे काम करते हैं।',
+  'seo.accessibility.title': 'सुगम्यता विवरण — कीबोर्ड परीक्षक',
+  'seo.accessibility.desc': 'हमारा सुगम्यता विवरण और समावेशी डिज़ाइन के प्रति प्रतिबद्धता पढ़ें।',
+  'seo.privacy.title': 'गोपनीयता नीति — स्थानीय डेटा प्रसंस्करण',
+  'seo.privacy.desc': 'हमारी गोपनीयता नीति बताती है कि आपका कीबोर्ड परीक्षण डेटा आपके ब्राउज़र में स्थानीय रहता है।',
+  
+  // New Footer specific
+  'footer.product': 'उत्पाद',
+  'footer.toolsInformation': 'उपकरण / जानकारी',
+  'footer.resources': 'संसाधन',
+  'footer.languageAppearance': 'भाषा / दिखावट',
+  'footer.keyboardLayouts': 'कीबोर्ड लेआउट',
+  'footer.keyboardLimitations': 'कीबोर्ड की सीमाएँ',
+  'footer.diagnosticReports': 'नैदानिक रिपोर्ट',
+  'footer.accessibility': 'सुगम्यता',
+  'footer.privacy': 'गोपनीयता',
+  'footer.documentation': 'प्रलेखन',
+  'footer.github': 'GitHub',
+  'footer.howTestingWorks': 'कीबोर्ड परीक्षण कैसे काम करता है',
+  'footer.copyright': '© 2026 कीबोर्ड परीक्षक',
+  'footer.privacyStrap': 'कीबोर्ड इनपुट आपके ब्राउज़र में रहता है।',
+  'footer.terms': 'शर्तें'
 };

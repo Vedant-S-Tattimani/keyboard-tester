@@ -1,18 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Keyboard from '../components/Keyboard/Keyboard';
 import LayoutSelector from '../components/Controls/LayoutSelector';
+import PlatformSelector from '../components/Controls/PlatformSelector';
 import ModeSelector from '../components/Controls/ModeSelector';
 import DiagnosticSummary from '../components/KeyboardTest/DiagnosticSummary';
-import TestHistory from '../components/KeyboardTest/TestHistory';
-import ResetButton from '../components/ResetButton';
+import MouseCheck from '../components/MouseCheck';
 import { useKeyboard } from '../hooks/useKeyboard';
 import { useLayout } from '../hooks/useLayout';
-import { useTestHistory } from '../hooks/useTestHistory';
 import { getAllModeKeys } from '../components/Keyboard/keyboardUtils';
 import { useSEO } from '../hooks/useSEO';
 import { useLanguage } from '../contexts/LanguageContext';
-import { useEffect, useRef, useState } from 'react';
 
 function Home() {
   const { t } = useLanguage();
@@ -24,7 +22,6 @@ function Home() {
 
   const { layout } = useLayout();
   const [mode, setMode] = useState('FULL');
-  const { history, saveSession, clearHistory } = useTestHistory();
   
   const { 
     pressedKeys, 
@@ -41,28 +38,6 @@ function Home() {
 
   const activeModeKeys = getAllModeKeys(layout, mode);
 
-  // Prevent duplicate saves using a ref
-  const hasSavedSession = useRef(false);
-
-  useEffect(() => {
-    if (status === 'NOT STARTED' || status === 'TESTING') {
-      hasSavedSession.current = false;
-    } else if ((status === 'COMPLETE' || status === 'INCOMPLETE' || status === 'POSSIBLE ISSUE') && !hasSavedSession.current) {
-      saveSession({
-        startedAt: new Date(),
-        completedAt: new Date(),
-        selectedLayout: layout,
-        mode: mode,
-        testedKeys: requiredTestedCount,
-        totalKeys: totalRequired,
-        completionPercentage,
-        elapsedTime,
-        status
-      });
-      hasSavedSession.current = true;
-    }
-  }, [status, layout, mode, requiredTestedCount, totalRequired, completionPercentage, elapsedTime, saveSession]);
-
   return (
     <div className="w-full p-8 flex flex-col items-center">
       
@@ -74,9 +49,27 @@ function Home() {
       </header>
       
       <main id="main-content" className="w-full flex flex-col items-center gap-4">
-        <div className="w-full max-w-max mx-auto flex flex-col md:flex-row justify-between items-end md:items-center gap-4 mb-2">
-          <LayoutSelector />
-          <ModeSelector activeMode={mode} onChange={setMode} />
+        <div className="w-full max-w-[1240px] flex flex-col md:flex-row justify-between items-center gap-4 mb-2">
+          {/* Master Unified Controls Bar */}
+          <div className="flex items-center gap-2 bg-card p-1.5 rounded-xl border border-border shadow-sm flex-wrap justify-center md:justify-start">
+            <LayoutSelector embedded />
+            <div className="h-6 w-[1.5px] bg-neutral-400 dark:bg-neutral-500 mx-1.5 self-center shrink-0" />
+            <PlatformSelector embedded />
+            <div className="h-6 w-[1.5px] bg-neutral-400 dark:bg-neutral-500 mx-1.5 self-center shrink-0" />
+            <ModeSelector activeMode={mode} onChange={setMode} embedded />
+          </div>
+
+          {/* Standalone Reset Button at EXTREME RIGHT */}
+          <button
+            onClick={reset}
+            className="px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-xl bg-card hover:bg-muted text-foreground border border-border shadow-sm transition-colors flex items-center gap-1.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary hover:border-primary/40 shrink-0"
+            aria-label="Reset keyboard test"
+          >
+            <svg className="w-3.5 h-3.5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+            </svg>
+            <span>{t('controls.reset', 'Reset')}</span>
+          </button>
         </div>
         <Keyboard 
           pressedKeys={pressedKeys} 
@@ -101,12 +94,8 @@ function Home() {
             />
           </div>
           <div className="md:col-span-1">
-            <ResetButton onReset={reset} />
+            <MouseCheck />
           </div>
-        </div>
-
-        <div className="w-full max-w-5xl">
-          <TestHistory history={history} onClear={clearHistory} />
         </div>
       </main>
 

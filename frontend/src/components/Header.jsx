@@ -2,20 +2,24 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import ThemeSelector from './Controls/ThemeSelector';
 import LanguageSelector from './Controls/LanguageSelector';
+import SoundSelector from './Controls/SoundSelector';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Header = () => {
   const { t } = useLanguage();
 
   return (
-    <header className="w-full flex flex-col items-center py-6 bg-card border-b border-border shadow-sm sticky top-0 z-50">
-      <div className="w-full max-w-5xl px-4 flex flex-col md:flex-row justify-between items-center relative gap-4">
+    <header className="w-full flex flex-col items-center py-4 bg-card border-b border-border shadow-sm sticky top-0 z-50">
+      <div className="w-full max-w-6xl px-4 flex flex-col lg:flex-row items-center justify-between gap-4">
         
-        <div className="flex-1 md:flex-none">
-          <span className="text-2xl font-black tracking-tighter text-primary uppercase">KeyCheck</span>
+        <div className="shrink-0">
+          <NavLink to="/" className="flex items-center gap-2.5 hover:opacity-90 transition-opacity">
+            <img src="/logo.svg" alt="KeyCheck Logo" className="w-8 h-8 drop-shadow-sm" />
+            <span className="text-2xl font-black tracking-tighter text-primary uppercase">KeyCheck</span>
+          </NavLink>
         </div>
         
-        <nav aria-label="Main navigation" className="flex flex-1 justify-center gap-2 sm:gap-4 flex-wrap">
+        <nav aria-label="Main navigation" className="flex items-center gap-1 sm:gap-3 flex-wrap justify-center">
           <NavLink 
             to="/" 
             className={({ isActive }) => 
@@ -48,8 +52,9 @@ const Header = () => {
           </NavLink>
         </nav>
         
-        <div className="flex flex-1 justify-center md:justify-end gap-2 md:absolute md:right-4">
+        <div className="flex items-center gap-2 shrink-0 flex-wrap justify-center">
           <LanguageSelector />
+          <SoundSelector />
           <ThemeSelector />
         </div>
         

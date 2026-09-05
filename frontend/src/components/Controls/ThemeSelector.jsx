@@ -17,7 +17,6 @@ const ThemeSelector = () => {
         onChange={(e) => setTheme(e.target.value)}
         className="bg-card text-card-foreground border border-border rounded-md px-2 py-1 text-xs sm:text-sm uppercase font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-primary focus-visible:border-primary transition-colors"
       >
-        <option value="system">{t('controls.theme.system')}</option>
         <option value="light">{t('controls.theme.light')}</option>
         <option value="dark">{t('controls.theme.dark')}</option>
       </select>

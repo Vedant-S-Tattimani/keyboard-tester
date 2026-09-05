@@ -14,7 +14,10 @@ const Footer = () => {
           
           {/* Brand & Intro */}
           <div className="flex flex-col gap-4 lg:col-span-1">
-            <span className="text-xl font-black tracking-tighter text-primary uppercase">KeyCheck</span>
+            <Link to="/" className="flex items-center gap-2 hover:opacity-90 transition-opacity">
+              <img src="/logo.svg" alt="KeyCheck Logo" className="w-7 h-7 drop-shadow-sm" />
+              <span className="text-xl font-black tracking-tighter text-primary uppercase">KeyCheck</span>
+            </Link>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
               A browser-based keyboard testing and diagnostic tool. <br /><br />
               Test your keyboard.<br />

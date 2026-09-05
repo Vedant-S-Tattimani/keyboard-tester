@@ -1,33 +1,78 @@
 import React from 'react';
 
-import { isMac } from '../../utils/platformUtils';
+import { usePlatform } from '../../hooks/usePlatform';
+import { useSound } from '../../contexts/SoundContext';
 
-const getMacLabel = (code, defaultLabel) => {
-  if (!isMac()) return defaultLabel;
-  
+const getKeyLabel = (code, defaultLabel, platform) => {
+  if (platform === 'mac') {
+    switch (code) {
+      case 'MetaLeft':
+      case 'MetaRight':
+        return 'cmd ⌘';
+      case 'AltLeft':
+      case 'AltRight':
+        return 'option ⌥';
+      case 'ControlLeft':
+      case 'ControlRight':
+        return 'control ⌃';
+      case 'Backspace':
+        return 'delete ⌫';
+      case 'Delete':
+        return 'del ⌦';
+      case 'Enter':
+      case 'NumpadEnter':
+        return 'return ↩';
+      case 'CapsLock':
+        return 'caps lock';
+      case 'ContextMenu':
+        return 'option ⌥';
+      case 'PrintScreen':
+        return 'F13';
+      case 'ScrollLock':
+        return 'F14';
+      case 'Pause':
+        return 'F15';
+      default:
+        return defaultLabel;
+    }
+  }
+
+  // Windows defaults
   switch (code) {
     case 'MetaLeft':
     case 'MetaRight':
-      return 'cmd ⌘';
+      return 'Win';
     case 'AltLeft':
     case 'AltRight':
-      return 'option ⌥';
+      return 'Alt';
     case 'ControlLeft':
     case 'ControlRight':
-      return 'control ⌃';
+      return 'Ctrl';
     case 'Backspace':
-      return 'delete ⌫';
+      return 'Backspace';
     case 'Delete':
-      return 'del ⌦';
+      return 'Del';
     case 'Enter':
     case 'NumpadEnter':
-      return 'return ↩';
+      return 'Enter';
+    case 'CapsLock':
+      return 'Caps Lock';
+    case 'ContextMenu':
+      return 'Menu';
+    case 'PrintScreen':
+      return 'PrtScn';
+    case 'ScrollLock':
+      return 'ScrLk';
+    case 'Pause':
+      return 'Pause';
     default:
       return defaultLabel;
   }
 };
 
 const Key = ({ code, label, width = '1', height = '1', isPressed, isTested, spacer, inMode = true }) => {
+  const { platform } = usePlatform();
+  const { playSound } = useSound();
   const baseSize = 3.5; // em
   const w = parseFloat(width) * baseSize;
   // Account for the gap between rows for tall keys
@@ -38,7 +83,7 @@ const Key = ({ code, label, width = '1', height = '1', isPressed, isTested, spac
     return <div style={{ width: `${w}em`, height: `${baseSize}em` }} className="shrink-0" />;
   }
   
-  const displayLabel = getMacLabel(code, label || code);
+  const displayLabel = getKeyLabel(code, label || code, platform);
 
   // Visual classes based on state priority
   let stateClasses = 'bg-card text-card-foreground border-border shadow-[0_0.1875em_0_0_var(--color-border)]';
@@ -53,8 +98,9 @@ const Key = ({ code, label, width = '1', height = '1', isPressed, isTested, spac
 
   return (
     <div 
-      className="relative shrink-0"
+      className="relative shrink-0 cursor-pointer"
       style={{ width: `${w}em`, height: `${baseSize}em`, margin: '0.125em' }}
+      onMouseDown={() => playSound(code)}
     >
       <div
         className={`
