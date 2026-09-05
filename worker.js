@@ -72,7 +72,15 @@ export default {
 
     // Otherwise serve index.html with HTMLRewriter enhancements for localized SEO
     const indexUrl = new URL('/index.html', request.url);
-    const response = await env.ASSETS.fetch(new Request(indexUrl.toString(), request));
+    let response = await env.ASSETS.fetch(new Request(indexUrl.toString(), request));
+
+    // Fallback if response is redirect
+    if (response.status >= 300 && response.status < 400) {
+      const loc = response.headers.get('Location');
+      if (loc && loc !== url.pathname) {
+        response = await env.ASSETS.fetch(new Request(new URL(loc, request.url).toString(), request));
+      }
+    }
 
     const langMatch = url.pathname.match(/^\/(en|hi|fil|pt|id|uk|th|es|fr|de)(\/|$)/);
     const lang = langMatch ? langMatch[1] : (url.pathname === '/' ? 'en' : null);
