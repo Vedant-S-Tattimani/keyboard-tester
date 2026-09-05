@@ -1,10 +1,11 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useSEO } from '../hooks/useSEO';
-import { Link } from 'react-router-dom';
+import { privacyContent } from '../i18n/content/privacy';
 
 const Privacy = () => {
-  const { t } = useLanguage();
+  const { language, t } = useLanguage();
+  const content = privacyContent[language] || privacyContent.en;
   
   useSEO({
     title: t('seo.privacy.title', 'Privacy Policy — Local Data Processing'),
@@ -15,45 +16,45 @@ const Privacy = () => {
   return (
     <main id="main-content" className="w-full max-w-4xl mx-auto px-4 py-12 animate-in fade-in duration-300">
       <header className="mb-12">
-        <h1 className="text-4xl md:text-5xl font-black tracking-tighter uppercase mb-4">{t('footer.privacy', 'Privacy Policy')}</h1>
-        <p className="text-xl text-muted-foreground">Keyboard input stays in your browser.</p>
+        <h1 className="text-4xl md:text-5xl font-black tracking-tighter uppercase mb-4">{content.title || t('footer.privacy', 'Privacy Policy')}</h1>
+        <p className="text-xl text-muted-foreground">{content.subtitle}</p>
       </header>
 
       <section className="space-y-6 text-foreground/90 leading-relaxed">
         
         <div className="bg-primary/10 border border-primary/20 p-6 rounded-xl mb-8">
-          <h2 className="text-2xl font-bold text-primary uppercase tracking-wider mb-2">The Short Version</h2>
+          <h2 className="text-2xl font-bold text-primary uppercase tracking-wider mb-2">{content.shortVersionTitle}</h2>
           <p className="font-medium text-lg">
-            We do not collect, store, or transmit your keystrokes. All diagnostic testing occurs entirely on your device.
+            {content.shortVersionText}
           </p>
         </div>
 
-        <h2 className="text-2xl font-bold uppercase tracking-wider mb-4 mt-8">Local Processing</h2>
+        <h2 className="text-2xl font-bold uppercase tracking-wider mb-4 mt-8">{content.localProcessingTitle}</h2>
         <p>
-          KeyCheck is a client-side web application. When you press keys during the Keyboard Test, Ghosting Test, or Typing Test, the Javascript running in your browser processes those events locally. There is no backend server receiving your keyboard input.
+          {content.localProcessingText}
         </p>
 
-        <h2 className="text-2xl font-bold uppercase tracking-wider mb-4 mt-8">Local Storage</h2>
+        <h2 className="text-2xl font-bold uppercase tracking-wider mb-4 mt-8">{content.localStorageTitle}</h2>
         <p>
-          We use your browser's built-in <code>localStorage</code> and <code>sessionStorage</code> to remember your preferences and test history across page reloads. This includes:
+          {content.localStorageIntro}
         </p>
         <ul className="list-disc list-inside space-y-2 ml-4">
-          <li>Your preferred theme (Light/Dark).</li>
-          <li>Your selected language.</li>
-          <li>Your recent Keyboard Test coverage results (for the History and Compare tools).</li>
+          {content.localStorageItems.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
         </ul>
         <p className="mt-4">
-          This data remains on your hard drive and is never uploaded. You can clear this data at any time by using the "Clear History" button on the homepage, or by clearing your browser's site data.
+          {content.localStorageOutro}
         </p>
 
-        <h2 className="text-2xl font-bold uppercase tracking-wider mb-4 mt-8">Analytics and Third Parties</h2>
+        <h2 className="text-2xl font-bold uppercase tracking-wider mb-4 mt-8">{content.analyticsTitle}</h2>
         <p>
-          KeyCheck does not integrate third-party analytics scripts (like Google Analytics), tracking pixels, or advertising networks. We do not track your IP address or associate your test results with any identifying information.
+          {content.analyticsText}
         </p>
 
-        <h2 className="text-2xl font-bold uppercase tracking-wider mb-4 mt-8">Open Source Verification</h2>
+        <h2 className="text-2xl font-bold uppercase tracking-wider mb-4 mt-8">{content.openSourceTitle}</h2>
         <p>
-          Because privacy claims are easy to make, we believe in transparency. The source code for KeyCheck is completely open-source and available on <a href="https://github.com" className="text-primary hover:underline">GitHub</a>. Anyone is free to audit the codebase to verify that no network requests containing user input are ever made.
+          {content.openSourceText}
         </p>
 
       </section>

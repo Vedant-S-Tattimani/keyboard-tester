@@ -111,6 +111,16 @@ export const en = {
   'compare.exportJson': 'Export JSON',
 
   // SEO & Informational Pages
+  'seo.home.title': 'Keyboard Tester – Test Your Keyboard Online | KeyCheck',
+  'seo.home.desc': 'Test your physical keyboard online with instant visual feedback. Check every key, test simultaneous input, and verify your keyboard is working correctly.',
+  'seo.ghostingtest.title': 'Keyboard Ghosting Test – Test Key Rollover Online | KeyCheck',
+  'seo.ghostingtest.desc': 'Test simultaneous keyboard input and observe how many keys your browser receives at once.',
+  'seo.typingtest.title': 'Typing Test – Check Your WPM and Accuracy | KeyCheck',
+  'seo.typingtest.desc': 'Measure your typing speed (WPM) and accuracy with our online typing test. Practice with various passages and improve your keyboard skills.',
+  'seo.inspector.title': 'Keyboard Event Inspector - KeyCheck',
+  'seo.inspector.desc': 'Advanced diagnostic tool for web developers to inspect raw browser keyboard events including key, code, location, and modifier states.',
+  'seo.compare.title': 'Compare Keyboards - KeyCheck',
+  'seo.compare.desc': 'Perform separate keyboard tests and compare their browser-observable results like coverage and missing keys.',
   'seo.keyboardLimitations.title': 'Keyboard Limitations — What Browser Keyboard Tests Can Detect',
   'seo.keyboardLimitations.desc': 'Understand the technical limitations of browser-based keyboard testing, including ghosting, polling rates, and OS-level shortcuts.',
   'seo.howTestingWorks.title': 'How Keyboard Testing Works — Browser Event Diagnostics',

@@ -53,4 +53,60 @@ test.describe('Routing E2E', () => {
     // We just verify it doesn't crash the browser or return a literal network 404 from the dev server (vite will serve index.html).
     expect(response.status()).toBe(200);
   });
+
+  test('localized subpaths load with translated content', async ({ page }) => {
+    // Filipino home
+    await page.goto('/fil');
+    await expect(page.locator('h1, h2').filter({ hasText: 'Subukan ang Iyong Keyboard' }).first()).toBeVisible();
+
+    // Ukrainian home
+    await page.goto('/uk');
+    await expect(page.locator('h1, h2').filter({ hasText: 'Перевірте вашу клавіатуру' }).first()).toBeVisible();
+
+    // Thai ghosting test
+    await page.goto('/th/ghosting-test');
+    await expect(page.locator('h1, h2').filter({ hasText: 'ทดสอบการกดพร้อมกัน' }).first()).toBeVisible();
+
+    // Spanish typing test
+    await page.goto('/es/typing-test');
+    await expect(page.locator('h1, h2').filter({ hasText: 'Prueba de Mecanografía' }).first()).toBeVisible();
+  });
+
+  test('informational pages render translated content for localized routes', async ({ page }) => {
+    // Filipino privacy
+    await page.goto('/fil/privacy');
+    await expect(page.locator('h1').filter({ hasText: 'Patakaran sa Pagkapribado' }).first()).toBeVisible();
+
+    // Thai how testing works
+    await page.goto('/th/how-testing-works');
+    await expect(page.locator('h1').filter({ hasText: 'การทำงานของการทดสอบคีย์บอร์ด' }).first()).toBeVisible();
+
+    // Ukrainian keyboard limitations
+    await page.goto('/uk/keyboard-limitations');
+    await expect(page.locator('h1').filter({ hasText: 'Обмеження клавіатури' }).first()).toBeVisible();
+
+    // German keyboard layouts
+    await page.goto('/de/keyboard-layouts');
+    await expect(page.locator('h1').filter({ hasText: 'Tastaturlayouts' }).first()).toBeVisible();
+
+    // Spanish accessibility
+    await page.goto('/es/accessibility');
+    await expect(page.locator('h1').filter({ hasText: 'Accesibilidad' }).first()).toBeVisible();
+  });
+
+  test('head contains hreflang tags for all 10 target languages and x-default', async ({ page }) => {
+    await page.goto('/ghosting-test');
+
+    const expectedLangs = ['en', 'hi', 'fil', 'pt', 'id', 'uk', 'th', 'es', 'fr', 'de', 'x-default'];
+    for (const lang of expectedLangs) {
+      const link = page.locator(`head link[rel="alternate"][hreflang="${lang}"]`);
+      await expect(link).toHaveCount(1);
+      const href = await link.getAttribute('href');
+      expect(href).toContain(lang === 'x-default' ? '/en/ghosting-test' : `/${lang}/ghosting-test`);
+    }
+
+    // Check canonical link
+    const canonical = page.locator('head link[rel="canonical"]');
+    await expect(canonical).toHaveCount(1);
+  });
 });

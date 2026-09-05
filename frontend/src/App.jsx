@@ -20,10 +20,10 @@ import './styles/print.css';
 
 function App() {
   return (
-    <ThemeProvider>
-      <LanguageProvider>
-        <SoundProvider>
-          <Router>
+    <Router>
+      <ThemeProvider>
+        <LanguageProvider>
+          <SoundProvider>
             <div className="min-h-screen flex flex-col items-center justify-start bg-background text-foreground overflow-y-auto pb-12 transition-colors duration-200">
               <a
                 href="#main-content"
@@ -33,6 +33,19 @@ function App() {
               </a>
               <Header />
               <Routes>
+                {/* Language subpaths: /:lang, /:lang/ghosting-test, etc. */}
+                <Route path="/:lang" element={<Home />} />
+                <Route path="/:lang/ghosting-test" element={<GhostingTest />} />
+                <Route path="/:lang/typing-test" element={<TypingTestPage />} />
+                <Route path="/:lang/event-inspector" element={<EventInspector />} />
+                <Route path="/:lang/compare" element={<Compare />} />
+                <Route path="/:lang/keyboard-limitations" element={<KeyboardLimitations />} />
+                <Route path="/:lang/how-testing-works" element={<HowTestingWorks />} />
+                <Route path="/:lang/keyboard-layouts" element={<KeyboardLayouts />} />
+                <Route path="/:lang/accessibility" element={<Accessibility />} />
+                <Route path="/:lang/privacy" element={<Privacy />} />
+
+                {/* Legacy / default routes without language prefix */}
                 <Route path="/" element={<Home />} />
                 <Route path="/ghosting-test" element={<GhostingTest />} />
                 <Route path="/typing-test" element={<TypingTestPage />} />
@@ -43,14 +56,15 @@ function App() {
                 <Route path="/keyboard-layouts" element={<KeyboardLayouts />} />
                 <Route path="/accessibility" element={<Accessibility />} />
                 <Route path="/privacy" element={<Privacy />} />
+
                 <Route path="*" element={<NotFound />} />
               </Routes>
               <Footer />
             </div>
-          </Router>
-        </SoundProvider>
-      </LanguageProvider>
-    </ThemeProvider>
+          </SoundProvider>
+        </LanguageProvider>
+      </ThemeProvider>
+    </Router>
   );
 }
 

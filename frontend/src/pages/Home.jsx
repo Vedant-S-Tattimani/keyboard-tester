@@ -13,7 +13,7 @@ import { useSEO } from '../hooks/useSEO';
 import { useLanguage } from '../contexts/LanguageContext';
 
 function Home() {
-  const { t } = useLanguage();
+  const { t, getLocalizedPath } = useLanguage();
   useSEO({
     title: t('seo.home.title', 'Keyboard Tester – Test Your Keyboard Online | KeyCheck'),
     description: t('seo.home.desc', 'Test your physical keyboard online with instant visual feedback. Check every key, test simultaneous input, and verify your keyboard is working correctly.'),
@@ -102,26 +102,26 @@ function Home() {
       <footer className="w-full max-w-5xl mt-24 border-t border-border/50 pt-12 text-center">
         <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-8">{t('footer.whatCanYouTest')}</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-start">
-          <Link to="/" className="p-6 bg-card border border-primary/20 rounded-xl hover:border-primary/50 transition-colors shadow-sm cursor-default">
+          <Link to={getLocalizedPath('/')} className="p-6 bg-card border border-primary/20 rounded-xl hover:border-primary/50 transition-colors shadow-sm cursor-default">
             <div className="flex items-center gap-2 mb-2">
               <h3 className="text-sm font-bold text-card-foreground uppercase tracking-wider">{t('nav.keyboardTest')}</h3>
               <span className="px-2 py-0.5 bg-primary text-primary-foreground text-[10px] font-bold uppercase rounded-sm">{t('footer.primary')}</span>
             </div>
             <p className="text-xs text-muted-foreground leading-relaxed">{t('footer.keyboardTestDesc')}</p>
           </Link>
-          <Link to="/ghosting-test" className="p-6 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors shadow-sm">
+          <Link to={getLocalizedPath('/ghosting-test')} className="p-6 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors shadow-sm">
             <h3 className="text-sm font-bold text-card-foreground uppercase tracking-wider mb-2">{t('nav.multiKeyTest')}</h3>
             <p className="text-xs text-muted-foreground leading-relaxed">{t('footer.multiKeyTestDesc')}</p>
           </Link>
-          <Link to="/typing-test" className="p-6 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors shadow-sm">
+          <Link to={getLocalizedPath('/typing-test')} className="p-6 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors shadow-sm">
             <h3 className="text-sm font-bold text-card-foreground uppercase tracking-wider mb-2">{t('nav.typingTest')}</h3>
             <p className="text-xs text-muted-foreground leading-relaxed">{t('footer.typingTestDesc')}</p>
           </Link>
-          <Link to="/event-inspector" className="p-6 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors shadow-sm">
+          <Link to={getLocalizedPath('/event-inspector')} className="p-6 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors shadow-sm">
             <h3 className="text-sm font-bold text-card-foreground uppercase tracking-wider mb-2">{t('inspector.title')}</h3>
             <p className="text-xs text-muted-foreground leading-relaxed">{t('footer.eventInspectorDesc')}</p>
           </Link>
-          <Link to="/compare" className="p-6 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors shadow-sm">
+          <Link to={getLocalizedPath('/compare')} className="p-6 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors shadow-sm">
             <h3 className="text-sm font-bold text-card-foreground uppercase tracking-wider mb-2">{t('history.compare')}</h3>
             <p className="text-xs text-muted-foreground leading-relaxed">{t('footer.compareDesc')}</p>
           </Link>

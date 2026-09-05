@@ -111,6 +111,16 @@ export const es = {
   'compare.exportJson': 'Exportar JSON',
 
   // SEO & Informational Pages
+  'seo.home.title': 'Probador de Teclado – Prueba Tu Teclado en Línea | KeyCheck',
+  'seo.home.desc': 'Prueba tu teclado físico en línea con retroalimentación visual instantánea. Verifica cada tecla, prueba pulsaciones simultáneas y confirma su correcto funcionamiento.',
+  'seo.ghostingtest.title': 'Prueba de Ghosting de Teclado – Prueba Key Rollover Online | KeyCheck',
+  'seo.ghostingtest.desc': 'Prueba la entrada simultánea de teclas y observa cuántas teclas recibe tu navegador al mismo tiempo.',
+  'seo.typingtest.title': 'Prueba de Mecanografía – Mide tus PPM y Precisión | KeyCheck',
+  'seo.typingtest.desc': 'Mide tu velocidad de escritura (PPM/WPM) y precisión con nuestra prueba de mecanografía en línea. Practica y mejora tu velocidad.',
+  'seo.inspector.title': 'Inspector de Eventos de Teclado – Diagnóstico en Navegador | KeyCheck',
+  'seo.inspector.desc': 'Herramienta de diagnóstico avanzada para desarrolladores web para inspeccionar eventos raw de teclado: key, code, location y modifiers.',
+  'seo.compare.title': 'Comparar Teclados – Diagnóstico de Cobertura y Teclas | KeyCheck',
+  'seo.compare.desc': 'Realiza pruebas independientes de teclado y compara resultados como la cobertura de teclas y las teclas que no responden.',
   'seo.keyboardLimitations.title': 'Limitaciones del Teclado — Qué Pueden Detectar las Pruebas de Teclado del Navegador',
   'seo.keyboardLimitations.desc': 'Comprende las limitaciones técnicas de las pruebas de teclado basadas en navegador, incluyendo ghosting, tasas de sondeo y atajos del sistema operativo.',
   'seo.howTestingWorks.title': 'Cómo Funciona la Prueba de Teclado — Diagnóstico de Eventos del Navegador',

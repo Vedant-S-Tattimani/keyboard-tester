@@ -5,7 +5,7 @@ import LanguageSelector from './Controls/LanguageSelector';
 import ThemeSelector from './Controls/ThemeSelector';
 
 const Footer = () => {
-  const { t } = useLanguage();
+  const { t, getLocalizedPath } = useLanguage();
 
   return (
     <footer className="w-full bg-card border-t border-border mt-auto print:hidden">
@@ -14,7 +14,7 @@ const Footer = () => {
           
           {/* Brand & Intro */}
           <div className="flex flex-col gap-4 lg:col-span-1">
-            <Link to="/" className="flex items-center gap-2 hover:opacity-90 transition-opacity">
+            <Link to={getLocalizedPath('/')} className="flex items-center gap-2 hover:opacity-90 transition-opacity">
               <img src="/logo.svg" alt="KeyCheck Logo" className="w-7 h-7 drop-shadow-sm" />
               <span className="text-xl font-black tracking-tighter text-primary uppercase">KeyCheck</span>
             </Link>
@@ -29,21 +29,21 @@ const Footer = () => {
           {/* Product Links */}
           <div className="flex flex-col gap-3">
             <h3 className="font-bold uppercase tracking-wider text-xs mb-1">{t('footer.product', 'Product')}</h3>
-            <Link to="/" className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('nav.keyboardTest', 'Keyboard Test')}</Link>
-            <Link to="/ghosting-test" className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('nav.multiKeyTest', 'Ghosting Test')}</Link>
-            <Link to="/typing-test" className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('nav.typingTest', 'Typing Test')}</Link>
-            <Link to="/event-inspector" className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('inspector.title', 'Event Inspector')}</Link>
-            <Link to="/compare" className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('compare.title', 'Keyboard Comparison')}</Link>
+            <Link to={getLocalizedPath('/')} className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('nav.keyboardTest', 'Keyboard Test')}</Link>
+            <Link to={getLocalizedPath('/ghosting-test')} className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('nav.multiKeyTest', 'Ghosting Test')}</Link>
+            <Link to={getLocalizedPath('/typing-test')} className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('nav.typingTest', 'Typing Test')}</Link>
+            <Link to={getLocalizedPath('/event-inspector')} className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('inspector.title', 'Event Inspector')}</Link>
+            <Link to={getLocalizedPath('/compare')} className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('compare.title', 'Keyboard Comparison')}</Link>
           </div>
 
           {/* Tools & Info Links */}
           <div className="flex flex-col gap-3">
             <h3 className="font-bold uppercase tracking-wider text-xs mb-1">{t('footer.toolsInformation', 'Tools / Information')}</h3>
-            <Link to="/keyboard-layouts" className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('footer.keyboardLayouts', 'Keyboard Layouts')}</Link>
-            <Link to="/keyboard-limitations" className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('footer.keyboardLimitations', 'Keyboard Limitations')}</Link>
-            <Link to="/how-testing-works" className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('footer.howTestingWorks', 'How Keyboard Testing Works')}</Link>
-            <Link to="/accessibility" className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('footer.accessibility', 'Accessibility')}</Link>
-            <Link to="/privacy" className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('footer.privacy', 'Privacy')}</Link>
+            <Link to={getLocalizedPath('/keyboard-layouts')} className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('footer.keyboardLayouts', 'Keyboard Layouts')}</Link>
+            <Link to={getLocalizedPath('/keyboard-limitations')} className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('footer.keyboardLimitations', 'Keyboard Limitations')}</Link>
+            <Link to={getLocalizedPath('/how-testing-works')} className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('footer.howTestingWorks', 'How Keyboard Testing Works')}</Link>
+            <Link to={getLocalizedPath('/accessibility')} className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('footer.accessibility', 'Accessibility')}</Link>
+            <Link to={getLocalizedPath('/privacy')} className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('footer.privacy', 'Privacy')}</Link>
           </div>
 
           {/* Language & Appearance */}
@@ -72,7 +72,7 @@ const Footer = () => {
               {t('footer.privacyStrap', 'Keyboard input stays in your browser.')}
             </span>
             <div className="flex gap-3 text-xs text-muted-foreground">
-              <Link to="/privacy" className="hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm">
+              <Link to={getLocalizedPath('/privacy')} className="hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm">
                 {t('footer.privacy', 'Privacy')}
               </Link>
             </div>

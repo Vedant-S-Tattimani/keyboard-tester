@@ -111,6 +111,16 @@ export const fr = {
   'compare.exportJson': 'Exporter JSON',
 
   // SEO & Informational Pages
+  'seo.home.title': 'Testeur de Clavier – Testez Votre Clavier en Ligne | KeyCheck',
+  'seo.home.desc': 'Testez votre clavier physique en ligne avec un retour visuel instantané. Vérifiez chaque touche, testez la saisie simultanée et validez son bon fonctionnement.',
+  'seo.ghostingtest.title': 'Test de Ghosting Clavier – Test Key Rollover en Ligne | KeyCheck',
+  'seo.ghostingtest.desc': 'Testez la saisie simultanée et observez combien de touches votre navigateur reçoit en même temps.',
+  'seo.typingtest.title': 'Test de Vitesse de Frappe – Testez Vos MPM et Précision | KeyCheck',
+  'seo.typingtest.desc': 'Mesurez votre vitesse de frappe (MPM/WPM) et votre précision avec notre test en ligne gratuit. Entraînez-vous avec des textes variés.',
+  'seo.inspector.title': 'Inspecteur d\'Événements Clavier – Diagnostic Navigateur | KeyCheck',
+  'seo.inspector.desc': 'Outil de diagnostic avancé pour développeurs web afin d\'inspecter les événements bruts du clavier: key, code, location et modificateurs.',
+  'seo.compare.title': 'Comparer des Claviers – Diagnostic de Couverture et Touches | KeyCheck',
+  'seo.compare.desc': 'Effectuez des tests de clavier distincts et comparez les résultats comme la couverture des touches et les anomalies.',
   'seo.keyboardLimitations.title': 'Limitations du Clavier — Ce Que Les Tests de Clavier du Navigateur Peuvent Détecter',
   'seo.keyboardLimitations.desc': 'Comprenez les limitations techniques des tests de clavier basés sur le navigateur, y compris le ghosting, les taux de polling et les raccourcis du système.',
   'seo.howTestingWorks.title': 'Comment Fonctionne le Test de Clavier — Diagnostic des Événements du Navigateur',

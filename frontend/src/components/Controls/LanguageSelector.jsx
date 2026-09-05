@@ -1,24 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
-
-const SUPPORTED_LANGUAGES = [
-  { code: 'en', name: 'English' },
-  { code: 'hi', name: 'हिन्दी' },
-  { code: 'es', name: 'Español' },
-  { code: 'fr', name: 'Français' },
-  { code: 'de', name: 'Deutsch' },
-  { code: 'pt', name: 'Português' },
-  { code: 'it', name: 'Italiano' },
-  { code: 'ja', name: '日本語' },
-  { code: 'ko', name: '한국어' },
-  { code: 'zh', name: '中文' },
-  { code: 'ar', name: 'العربية' },
-  { code: 'he', name: 'עברית' },
-  { code: 'ru', name: 'Русский' },
-  { code: 'bn', name: 'বাংলা' },
-  { code: 'ta', name: 'தமிழ்' },
-  { code: 'te', name: 'తెలుగు' }
-];
+import { SUPPORTED_LANGUAGES } from '../../i18n';
 
 const LanguageSelector = () => {
   const { language, setLanguage, t } = useLanguage();
@@ -32,7 +14,8 @@ const LanguageSelector = () => {
         id="language-select"
         value={language}
         onChange={(e) => setLanguage(e.target.value)}
-        className="bg-card text-card-foreground border border-border rounded-md px-2 py-1 text-xs sm:text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-primary focus-visible:border-primary transition-colors"
+        className="bg-card text-card-foreground border border-border rounded-md px-2 py-1 text-xs sm:text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-primary focus-visible:border-primary transition-colors cursor-pointer"
+        aria-label={t('controls.language')}
       >
         {SUPPORTED_LANGUAGES.map((lang) => (
           <option key={lang.code} value={lang.code}>
