@@ -63,25 +63,23 @@ const seoData = {
 
 export default {
   async fetch(request, env) {
-    let response;
-    try {
-      response = await env.ASSETS.fetch(request);
-      if (response.status < 400) {
-        return response;
-      }
-    } catch (e) {}
-
     const url = new URL(request.url);
-    url.pathname = '/index.html';
-    response = await env.ASSETS.fetch(new Request(url.toString(), request));
 
-    const reqUrl = new URL(request.url);
-    const langMatch = reqUrl.pathname.match(/^\/(en|hi|fil|pt|id|uk|th|es|fr|de)(\/|$)/);
-    const lang = langMatch ? langMatch[1] : (reqUrl.pathname === '/' ? 'en' : null);
+    // If it is a static asset with a file extension (css, js, svg, png, etc.), serve directly
+    if (/\.[a-zA-Z0-9]+$/.test(url.pathname) && !url.pathname.endsWith('.html')) {
+      return env.ASSETS.fetch(request);
+    }
+
+    // Otherwise serve index.html with HTMLRewriter enhancements for localized SEO
+    const indexUrl = new URL('/index.html', request.url);
+    const response = await env.ASSETS.fetch(new Request(indexUrl.toString(), request));
+
+    const langMatch = url.pathname.match(/^\/(en|hi|fil|pt|id|uk|th|es|fr|de)(\/|$)/);
+    const lang = langMatch ? langMatch[1] : (url.pathname === '/' ? 'en' : null);
 
     if (lang && seoData[lang] && typeof HTMLRewriter !== 'undefined') {
       const data = seoData[lang];
-      const canonicalUrl = `${reqUrl.origin}/${lang}`;
+      const canonicalUrl = `${url.origin}/${lang}`;
       const fallbackHtml = `
         <header class="mb-12 text-center max-w-2xl mx-auto space-y-4 mt-4 md:mt-8" style="text-align: center; margin: 2rem auto; padding: 0 1rem;">
           <h1 class="text-3xl font-bold tracking-tight text-primary uppercase" style="font-size: 1.875rem; font-weight: 700;">${data.h1}</h1>
