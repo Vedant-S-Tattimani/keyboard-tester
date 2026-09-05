@@ -11,7 +11,7 @@ const KeyboardLayouts = () => {
   useSEO({
     title: t('seo.keyboardLayouts.title', 'Keyboard Layouts — Physical vs Logical Key Mapping'),
     description: t('seo.keyboardLayouts.desc', 'Explore how different physical keyboard layouts (QWERTY, AZERTY, etc.) interact with operating systems and browser events.'),
-    url: 'https://keycheck.example.com/keyboard-layouts'
+    url: 'https://keyboardtester1.com/keyboard-layouts'
   });
 
   return (

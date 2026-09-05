@@ -11,7 +11,7 @@ const HowTestingWorks = () => {
   useSEO({
     title: t('seo.howTestingWorks.title', 'How Keyboard Testing Works — Browser Event Diagnostics'),
     description: t('seo.howTestingWorks.desc', 'Learn how browser KeyboardEvents translate physical key presses into observable data for diagnostic testing.'),
-    url: 'https://keycheck.example.com/how-testing-works'
+    url: 'https://keyboardtester1.com/how-testing-works'
   });
 
   return (

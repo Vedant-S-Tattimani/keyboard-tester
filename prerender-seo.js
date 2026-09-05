@@ -15,7 +15,7 @@ if (!fs.existsSync(templateHtmlPath)) {
 }
 
 const template = fs.readFileSync(templateHtmlPath, 'utf8');
-const domain = 'https://keyboard-tester.keyboard-tester.workers.dev';
+const domain = 'https://keyboardtester1.com';
 
 const langs = ['en', 'hi', 'fil', 'pt', 'id', 'uk', 'th', 'es', 'fr', 'de'];
 
@@ -37,8 +37,9 @@ for (const lang of langs) {
   // 4. Canonical
   html = html.replace(/<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/i, `<link rel="canonical" href="${canonicalUrl}" />`);
 
-  // 5. Replace keycheck.example.com placeholders with real domain
+  // 5. Replace placeholders and workers.dev with real domain
   html = html.replaceAll('https://keycheck.example.com', domain);
+  html = html.replaceAll('https://keyboard-tester.keyboard-tester.workers.dev', domain);
 
   // 6. Pre-render fallback H1 and two-line intro inside #root for search engines
   const serverFallback = `
@@ -66,6 +67,7 @@ rootHtml = rootHtml.replace(/<title>[\s\S]*?<\/title>/i, `<title>${enData.seoTit
 rootHtml = rootHtml.replace(/<meta\s+name="description"\s+content="[^"]*"\s*\/?>/i, `<meta name="description" content="${enData.seoDesc}" />`);
 rootHtml = rootHtml.replace(/<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/i, `<link rel="canonical" href="${domain}/en" />`);
 rootHtml = rootHtml.replaceAll('https://keycheck.example.com', domain);
+rootHtml = rootHtml.replaceAll('https://keyboard-tester.keyboard-tester.workers.dev', domain);
 const rootFallback = `
   <header class="mb-12 text-center max-w-2xl mx-auto space-y-4 mt-4 md:mt-8" style="text-align: center; margin: 2rem auto; padding: 0 1rem;">
     <h1 class="text-3xl font-bold tracking-tight text-primary uppercase" style="font-size: 1.875rem; font-weight: 700;">${enData.h1}</h1>

@@ -12,7 +12,7 @@ const EventInspector = () => {
   useSEO({
     title: t('seo.inspector.title', 'Keyboard Event Inspector - KeyCheck'),
     description: t('seo.inspector.desc', 'Advanced diagnostic tool for web developers to inspect raw browser keyboard events including key, code, location, and modifier states.'),
-    url: 'https://keycheck.example.com/event-inspector'
+    url: 'https://keyboardtester1.com/event-inspector'
   });
 
   const {

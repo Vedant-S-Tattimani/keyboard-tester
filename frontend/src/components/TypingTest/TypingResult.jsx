@@ -7,7 +7,7 @@ const TypingResult = ({ wpm, accuracy, correctCharacters, incorrectCharacters, d
   const totalCharacters = correctCharacters + incorrectCharacters;
 
   const handleShare = async () => {
-    const resultText = `KeyCheck Typing Test\n${wpm} WPM\n${accuracy}% accuracy\n${duration} seconds\n\nhttps://keycheck.example.com/typing-test`;
+    const resultText = `KeyCheck Typing Test\n${wpm} WPM\n${accuracy}% accuracy\n${duration} seconds\n\nhttps://keyboardtester1.com/typing-test`;
 
     if (navigator.share) {
       try {

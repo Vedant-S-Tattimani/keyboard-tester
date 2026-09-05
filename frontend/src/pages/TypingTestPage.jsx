@@ -12,7 +12,7 @@ const TypingTestPage = () => {
   useSEO({
     title: t('seo.typingtest.title', 'Typing Test – Check Your WPM and Accuracy | KeyCheck'),
     description: t('seo.typingtest.desc', 'Measure your typing speed (WPM) and accuracy with our online typing test. Practice with various passages and improve your keyboard skills.'),
-    url: 'https://keycheck.example.com/typing-test'
+    url: 'https://keyboardtester1.com/typing-test'
   });
   const {
     passage,

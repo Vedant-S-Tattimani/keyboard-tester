@@ -10,7 +10,7 @@ const Privacy = () => {
   useSEO({
     title: t('seo.privacy.title', 'Privacy Policy — Local Data Processing'),
     description: t('seo.privacy.desc', 'Our privacy policy explains how your keyboard testing data remains local in your browser and is never transmitted.'),
-    url: 'https://keycheck.example.com/privacy'
+    url: 'https://keyboardtester1.com/privacy'
   });
 
   return (

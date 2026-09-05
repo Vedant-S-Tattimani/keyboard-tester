@@ -6,7 +6,7 @@ const NotFound = () => {
   useSEO({
     title: 'Page Not Found | KeyCheck',
     description: 'The page you are looking for does not exist.',
-    url: 'https://keycheck.example.com/404'
+    url: 'https://keyboardtester1.com/404'
   });
 
   return (

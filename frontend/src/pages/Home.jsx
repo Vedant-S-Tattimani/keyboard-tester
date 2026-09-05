@@ -18,7 +18,7 @@ function Home() {
   useSEO({
     title: t('seo.home.title', 'Keyboard Tester – Test Your Keyboard Online | KeyCheck'),
     description: t('seo.home.desc', 'Test your physical keyboard online with instant visual feedback. Check every key, test simultaneous input, and verify your keyboard is working correctly.'),
-    url: 'https://keycheck.example.com/'
+    url: 'https://keyboardtester1.com/'
   });
 
   const { layout } = useLayout();

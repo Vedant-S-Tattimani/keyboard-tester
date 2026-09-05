@@ -11,7 +11,7 @@ const KeyboardLimitations = () => {
   useSEO({
     title: t('seo.keyboardLimitations.title', 'Keyboard Limitations — What Browser Keyboard Tests Can Detect'),
     description: t('seo.keyboardLimitations.desc', 'Understand the technical limitations of browser-based keyboard testing, including ghosting, polling rates, and OS-level shortcuts.'),
-    url: 'https://keycheck.example.com/keyboard-limitations'
+    url: 'https://keyboardtester1.com/keyboard-limitations'
   });
 
   return (

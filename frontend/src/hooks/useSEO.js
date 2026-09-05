@@ -38,7 +38,7 @@ export const useSEO = ({ title, description, url }) => {
     }
 
     // 3. Base URL & Canonical
-    const origin = typeof window !== 'undefined' ? window.location.origin : 'https://keycheck.example.com';
+    const origin = typeof window !== 'undefined' ? window.location.origin : 'https://keyboardtester1.com';
     const subpath = cleanPath === '/' ? '' : cleanPath;
     const currentLang = language || 'en';
     const canonicalUrl = `${origin}/${currentLang}${subpath}`;

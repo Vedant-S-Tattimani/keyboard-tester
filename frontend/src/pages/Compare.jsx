@@ -10,7 +10,7 @@ const Compare = () => {
   useSEO({
     title: t('seo.compare.title', 'Compare Keyboards - KeyCheck'),
     description: t('seo.compare.desc', 'Perform separate keyboard tests and compare their browser-observable results like coverage and missing keys.'),
-    url: 'https://keycheck.example.com/compare'
+    url: 'https://keyboardtester1.com/compare'
   });
 
   const [keyboardA, setKeyboardA] = useState(() => {

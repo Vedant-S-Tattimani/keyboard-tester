@@ -10,7 +10,7 @@ const Accessibility = () => {
   useSEO({
     title: t('seo.accessibility.title', 'Accessibility Statement — Keyboard Tester'),
     description: t('seo.accessibility.desc', 'Read our accessibility statement and commitment to inclusive design for keyboard diagnostic tools.'),
-    url: 'https://keycheck.example.com/accessibility'
+    url: 'https://keyboardtester1.com/accessibility'
   });
 
   return (

@@ -11,7 +11,7 @@ const GhostingTest = () => {
   useSEO({
     title: t('seo.ghostingtest.title', 'Keyboard Ghosting Test – Test Key Rollover Online | KeyCheck'),
     description: t('seo.ghostingtest.desc', 'Test simultaneous keyboard input and observe how many keys your browser receives at once.'),
-    url: 'https://keycheck.example.com/ghosting-test'
+    url: 'https://keyboardtester1.com/ghosting-test'
   });
   const { pressedKeys, maxSimultaneous, eventHistory, reset } = useMultiKeyTest();
   
