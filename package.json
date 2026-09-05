@@ -1,8 +1,9 @@
 {
   "name": "keyboard-tester-root",
   "private": true,
+  "type": "module",
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
+    "build": "cd frontend && npm install && npm run build && cd .. && node prerender-seo.js",
     "deploy": "wrangler deploy"
   }
 }

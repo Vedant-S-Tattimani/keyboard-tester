@@ -1,52 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Root & Language Homepages -->
   <url>
-    <loc>https://keycheck.example.com/</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboard-tester.keyboard-tester.workers.dev/en" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboard-tester.keyboard-tester.workers.dev/hi" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboard-tester.keyboard-tester.workers.dev/fil" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboard-tester.keyboard-tester.workers.dev/pt" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboard-tester.keyboard-tester.workers.dev/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboard-tester.keyboard-tester.workers.dev/uk" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboard-tester.keyboard-tester.workers.dev/th" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboard-tester.keyboard-tester.workers.dev/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboard-tester.keyboard-tester.workers.dev/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboard-tester.keyboard-tester.workers.dev/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboard-tester.keyboard-tester.workers.dev/en" />
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 10 Localized Language Homepages -->
+  <url>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/en</loc>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://keycheck.example.com/ghosting-test</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/hi</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/fil</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/pt</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/id</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/uk</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/th</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/es</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/fr</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/de</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Diagnostic & Testing Tools -->
+  <url>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/ghosting-test</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://keycheck.example.com/typing-test</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/typing-test</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://keycheck.example.com/event-inspector</loc>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/event-inspector</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://keycheck.example.com/compare</loc>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/compare</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://keycheck.example.com/keyboard-limitations</loc>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/keyboard-limitations</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://keycheck.example.com/how-testing-works</loc>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/how-testing-works</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://keycheck.example.com/keyboard-layouts</loc>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/keyboard-layouts</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://keycheck.example.com/accessibility</loc>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/accessibility</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://keycheck.example.com/privacy</loc>
+    <loc>https://keyboard-tester.keyboard-tester.workers.dev/privacy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
