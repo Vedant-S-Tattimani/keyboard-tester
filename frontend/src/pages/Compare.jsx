@@ -93,9 +93,9 @@ const Compare = () => {
   return (
     <div id="main-content" className="w-full max-w-5xl mx-auto px-4 py-8 animate-in fade-in duration-300 print:w-full print:max-w-none print:p-0 print:m-0">
       <header className="mb-8 text-center print:text-start print:mb-4">
-        <h1 className="text-3xl font-bold tracking-tight uppercase">{t('compare.title', 'Compare Keyboards')}</h1>
+        <h1 className="text-3xl font-bold tracking-tight uppercase">{t('compare.title')}</h1>
         <p className="text-muted-foreground text-sm leading-relaxed max-w-2xl mx-auto mt-2 print:hidden">
-          Test two keyboards separately and compare their test coverage and missing keys.
+          {t('compare.desc')}
         </p>
       </header>
 
@@ -107,7 +107,7 @@ const Compare = () => {
            onClick={() => setActiveTab('A')}
            className={`px-6 py-2 rounded-md font-bold text-sm uppercase tracking-wider transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background ${activeTab === 'A' ? 'bg-primary text-primary-foreground' : 'bg-card text-muted-foreground border border-border hover:bg-muted/50'}`}
          >
-           Keyboard A {keyboardA ? '✓' : ''}
+           {t('compare.tabA')} {keyboardA ? '✓' : ''}
          </button>
          <button 
            role="tab"
@@ -115,7 +115,7 @@ const Compare = () => {
            onClick={() => setActiveTab('B')}
            className={`px-6 py-2 rounded-md font-bold text-sm uppercase tracking-wider transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background ${activeTab === 'B' ? 'bg-primary text-primary-foreground' : 'bg-card text-muted-foreground border border-border hover:bg-muted/50'}`}
          >
-           Keyboard B {keyboardB ? '✓' : ''}
+           {t('compare.tabB')} {keyboardB ? '✓' : ''}
          </button>
          <button 
            role="tab"
@@ -124,20 +124,20 @@ const Compare = () => {
            disabled={!keyboardA && !keyboardB}
            className={`px-6 py-2 rounded-md font-bold text-sm uppercase tracking-wider transition-colors disabled:opacity-50 disabled:cursor-not-allowed focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background ${activeTab === 'COMPARISON' ? 'bg-primary text-primary-foreground' : 'bg-card text-muted-foreground border border-border hover:bg-muted/50'}`}
          >
-           Comparison
+           {t('compare.tabComparison')}
          </button>
       </div>
 
       <div className="w-full bg-card border border-border rounded-xl p-6 shadow-sm print:shadow-none print:border-none print:p-0">
         {activeTab === 'A' && (
           <div className="print:hidden">
-            <h2 className="text-xl font-bold uppercase mb-4 tracking-wider text-center">{t('compare.testA', 'Test Keyboard A')}</h2>
+            <h2 className="text-xl font-bold uppercase mb-4 tracking-wider text-center">{t('compare.tabA')}</h2>
             {keyboardA ? (
               <div className="text-center space-y-4">
-                 <p className="text-green-500 font-bold">✓ Keyboard A Result Saved</p>
-                 <div className="text-sm font-mono text-muted-foreground">Coverage: {keyboardA.testedKeys} / {keyboardA.totalKeys}</div>
-                 <button onClick={handleRetestA} className="px-4 py-2 bg-destructive text-destructive-foreground hover:bg-destructive/90 rounded text-sm font-bold uppercase tracking-wider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-destructive focus-visible:ring-offset-2 focus-visible:ring-offset-background">{t('compare.retestA', 'Retest Keyboard A')}</button>
-                 <button onClick={() => setActiveTab('B')} className="px-4 py-2 ms-4 bg-primary text-primary-foreground hover:bg-primary/90 rounded text-sm font-bold uppercase tracking-wider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background">{t('compare.proceedToB', 'Proceed to Keyboard B')}</button>
+                 <p className="text-green-500 font-bold">{t('compare.savedA')}</p>
+                 <div className="text-sm font-mono text-muted-foreground">{t('compare.coverageLabel')}: {keyboardA.testedKeys} / {keyboardA.totalKeys}</div>
+                 <button onClick={handleRetestA} className="px-4 py-2 bg-destructive text-destructive-foreground hover:bg-destructive/90 rounded text-sm font-bold uppercase tracking-wider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-destructive focus-visible:ring-offset-2 focus-visible:ring-offset-background">{t('compare.retestA')}</button>
+                 <button onClick={() => setActiveTab('B')} className="px-4 py-2 ms-4 bg-primary text-primary-foreground hover:bg-primary/90 rounded text-sm font-bold uppercase tracking-wider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background">{t('compare.proceedToB')}</button>
               </div>
             ) : (
               <CompareTestArea label="Keyboard A" onSave={handleSaveA} />
@@ -147,13 +147,13 @@ const Compare = () => {
 
         {activeTab === 'B' && (
           <div className="print:hidden">
-            <h2 className="text-xl font-bold uppercase mb-4 tracking-wider text-center">{t('compare.testB', 'Test Keyboard B')}</h2>
+            <h2 className="text-xl font-bold uppercase mb-4 tracking-wider text-center">{t('compare.tabB')}</h2>
             {keyboardB ? (
               <div className="text-center space-y-4">
-                 <p className="text-green-500 font-bold">✓ Keyboard B Result Saved</p>
-                 <div className="text-sm font-mono text-muted-foreground">Coverage: {keyboardB.testedKeys} / {keyboardB.totalKeys}</div>
-                 <button onClick={handleRetestB} className="px-4 py-2 bg-destructive text-destructive-foreground hover:bg-destructive/90 rounded text-sm font-bold uppercase tracking-wider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-destructive focus-visible:ring-offset-2 focus-visible:ring-offset-background">{t('compare.retestB', 'Retest Keyboard B')}</button>
-                 <button onClick={() => setActiveTab('COMPARISON')} className="px-4 py-2 ms-4 bg-primary text-primary-foreground hover:bg-primary/90 rounded text-sm font-bold uppercase tracking-wider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background">{t('compare.viewComparison', 'View Comparison')}</button>
+                 <p className="text-green-500 font-bold">{t('compare.savedB')}</p>
+                 <div className="text-sm font-mono text-muted-foreground">{t('compare.coverageLabel')}: {keyboardB.testedKeys} / {keyboardB.totalKeys}</div>
+                 <button onClick={handleRetestB} className="px-4 py-2 bg-destructive text-destructive-foreground hover:bg-destructive/90 rounded text-sm font-bold uppercase tracking-wider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-destructive focus-visible:ring-offset-2 focus-visible:ring-offset-background">{t('compare.retestB')}</button>
+                 <button onClick={() => setActiveTab('COMPARISON')} className="px-4 py-2 ms-4 bg-primary text-primary-foreground hover:bg-primary/90 rounded text-sm font-bold uppercase tracking-wider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background">{t('compare.viewComparison')}</button>
               </div>
             ) : (
               <CompareTestArea label="Keyboard B" onSave={handleSaveB} />
@@ -166,7 +166,7 @@ const Compare = () => {
             <ComparisonTable kA={keyboardA} kB={keyboardB} />
             <div className="flex justify-between items-center print:hidden">
                <button onClick={handleReset} className="px-4 py-2 bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border rounded text-sm font-bold uppercase tracking-wider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background">
-                 Reset Comparison
+                 {t('compare.resetComparison')}
                </button>
                <CompareExport kA={keyboardA} kB={keyboardB} />
             </div>

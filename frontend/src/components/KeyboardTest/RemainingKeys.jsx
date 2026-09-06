@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const RemainingKeys = ({ requiredKeys, testedKeys }) => {
+  const { t } = useLanguage();
   const [expanded, setExpanded] = useState(false);
   
   const remainingArray = Array.from(requiredKeys).filter(k => !testedKeys.has(k)).sort();
@@ -13,7 +15,7 @@ const RemainingKeys = ({ requiredKeys, testedKeys }) => {
   return (
     <div className="mt-4 p-4 bg-muted/20 border border-border/50 rounded-lg">
       <h3 className="text-xs font-bold text-card-foreground uppercase tracking-wider mb-3 flex justify-between items-center">
-        Untested Required Keys
+        {t('summary.untestedKeys')}
         <span className="bg-muted px-2 py-0.5 rounded text-[10px]">{remainingArray.length}</span>
       </h3>
       
@@ -30,7 +32,7 @@ const RemainingKeys = ({ requiredKeys, testedKeys }) => {
           onClick={() => setExpanded(true)}
           className="mt-3 text-[10px] text-primary hover:underline font-bold uppercase tracking-wider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-muted rounded px-1"
         >
-          + Show {hiddenCount} more
+          {t('summary.showMore', { count: hiddenCount })}
         </button>
       )}
       
@@ -39,7 +41,7 @@ const RemainingKeys = ({ requiredKeys, testedKeys }) => {
           onClick={() => setExpanded(false)}
           className="mt-3 text-[10px] text-primary hover:underline font-bold uppercase tracking-wider focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-muted rounded px-1"
         >
-          Show less
+          {t('summary.showLess')}
         </button>
       )}
     </div>

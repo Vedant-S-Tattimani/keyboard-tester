@@ -12,7 +12,7 @@ const TypingResult = ({ wpm, accuracy, correctCharacters, incorrectCharacters, d
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'My KeyCheck Typing Score',
+          title: t('typing.shareTitle', 'My KeyCheck Typing Score'),
           text: resultText,
         });
       } catch (err) {
@@ -75,7 +75,7 @@ const TypingResult = ({ wpm, accuracy, correctCharacters, incorrectCharacters, d
           onClick={handleShare}
           className="flex-1 py-4 px-8 bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-md font-bold uppercase tracking-wider transition-colors border border-border focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background"
         >
-          {copied ? 'Copied ✓' : (navigator.share ? 'Share Result' : 'Copy Result')}
+          {copied ? t('typing.copied') : (navigator.share ? t('typing.shareResult') : t('typing.copyResult'))}
         </button>
         <button 
           onClick={onRestart}

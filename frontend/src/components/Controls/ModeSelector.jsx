@@ -1,7 +1,9 @@
 import React from 'react';
 import { TEST_MODES } from '../Keyboard/keyboardModes';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const ModeSelector = ({ activeMode, onChange, embedded }) => {
+  const { t } = useLanguage();
   const content = (
     <div className="flex items-center gap-1">
       {Object.values(TEST_MODES).map((mode) => (
@@ -27,7 +29,7 @@ const ModeSelector = ({ activeMode, onChange, embedded }) => {
   return (
     <div className="flex flex-col items-end gap-1">
       <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold">
-        Test Mode
+        {t('controls.mode', 'Test Mode')}
       </span>
       <div className="inline-flex bg-muted/50 p-1 rounded-lg border border-border/50">
         {content}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const getLocationLabel = (loc) => {
   switch (loc) {
@@ -19,10 +20,12 @@ const BooleanBadge = ({ value }) => (
 );
 
 const EventDetailsPanel = ({ event }) => {
+  const { t } = useLanguage();
+
   if (!event) {
     return (
       <div className="w-full h-full min-h-[300px] bg-card border border-border rounded-xl shadow-sm flex items-center justify-center p-6 text-center text-muted-foreground">
-        Select an event from the log to view its raw properties.
+        {t('inspector.selectEventPrompt')}
       </div>
     );
   }
@@ -30,7 +33,7 @@ const EventDetailsPanel = ({ event }) => {
   return (
     <div className="w-full bg-card border border-border rounded-xl shadow-sm overflow-hidden flex flex-col h-full">
       <div className="bg-muted/30 border-b border-border px-4 py-3 flex items-center justify-between">
-        <h3 className="font-semibold text-sm uppercase tracking-wider">Event Properties</h3>
+        <h3 className="font-semibold text-sm uppercase tracking-wider">{t('inspector.eventProperties')}</h3>
         <span className={`text-xs font-bold font-mono px-2 py-0.5 rounded ${
           event.type === 'keydown' ? 'bg-blue-500/20 text-blue-500' : 'bg-orange-500/20 text-orange-500'
         }`}>
@@ -42,7 +45,7 @@ const EventDetailsPanel = ({ event }) => {
         
         {/* Identity Group */}
         <div>
-          <h4 className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-2">Identity</h4>
+          <h4 className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-2">{t('inspector.identityGroup')}</h4>
           <div className="grid grid-cols-2 gap-2 bg-muted/20 p-3 rounded-lg border border-border/50">
             <div>
               <span className="block text-xs text-muted-foreground mb-1">event.key</span>
@@ -57,7 +60,7 @@ const EventDetailsPanel = ({ event }) => {
 
         {/* State Group */}
         <div>
-          <h4 className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-2">State</h4>
+          <h4 className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-2">{t('inspector.stateGroup')}</h4>
           <div className="grid grid-cols-2 gap-2 bg-muted/20 p-3 rounded-lg border border-border/50">
             <div>
               <span className="block text-xs text-muted-foreground mb-1">event.location</span>
@@ -76,7 +79,7 @@ const EventDetailsPanel = ({ event }) => {
 
         {/* Modifiers Group */}
         <div>
-          <h4 className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-2">Modifiers Active</h4>
+          <h4 className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-2">{t('inspector.modifiersGroup')}</h4>
           <div className="grid grid-cols-4 gap-2 bg-muted/20 p-3 rounded-lg border border-border/50">
             <div className="flex flex-col items-center justify-center gap-1">
               <span className="text-[10px] text-muted-foreground uppercase">Shift</span>

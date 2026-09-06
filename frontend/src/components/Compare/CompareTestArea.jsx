@@ -4,6 +4,7 @@ import LayoutSelector from '../Controls/LayoutSelector';
 import ModeSelector from '../Controls/ModeSelector';
 import { useKeyboard } from '../../hooks/useKeyboard';
 import { useLayout } from '../../hooks/useLayout';
+import { useLanguage } from '../../contexts/LanguageContext';
 import { getAllModeKeys } from '../Keyboard/keyboardUtils';
 import ResetButton from '../ResetButton';
 
@@ -14,6 +15,7 @@ const formatTime = (seconds) => {
 };
 
 const CompareTestArea = ({ label, onSave }) => {
+  const { t } = useLanguage();
   const { layout } = useLayout();
   const [mode, setMode] = useState('FULL');
   
@@ -72,15 +74,15 @@ const CompareTestArea = ({ label, onSave }) => {
          
          <div className="flex gap-8">
             <div>
-               <span className="block text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-1">Status</span>
+               <span className="block text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-1">{t('compare.statusLabel')}</span>
                <span className="font-mono font-bold text-sm">{status}</span>
             </div>
             <div>
-               <span className="block text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-1">Coverage</span>
+               <span className="block text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-1">{t('compare.coverageLabel')}</span>
                <span className="font-mono font-bold text-sm">{requiredTestedCount} / {totalRequired} ({completionPercentage}%)</span>
             </div>
             <div>
-               <span className="block text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-1">Duration</span>
+               <span className="block text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-1">{t('compare.durationLabel')}</span>
                <span className="font-mono font-bold text-sm">{formatTime(elapsedTime)}</span>
             </div>
          </div>
@@ -92,7 +94,7 @@ const CompareTestArea = ({ label, onSave }) => {
                disabled={status === 'NOT STARTED'}
                className="px-6 py-2 bg-primary text-primary-foreground hover:bg-primary/90 font-bold uppercase tracking-wider text-xs rounded transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
-               Save {label} Result
+               {t('compare.saveResult', { label })}
             </button>
          </div>
 

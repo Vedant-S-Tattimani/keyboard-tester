@@ -92,9 +92,9 @@ const MouseCheck = () => {
           <button 
             onClick={(e) => { e.stopPropagation(); resetMouseTest(); }}
             className="text-[10px] uppercase font-bold text-muted-foreground hover:text-primary transition-colors px-2 py-0.5 rounded bg-muted/40 hover:bg-muted"
-            title="Reset Mouse Test"
+            title={t('mouse.resetTitle', 'Reset Mouse Test')}
           >
-            Reset
+            {t('mouse.reset', 'Reset')}
           </button>
         </div>
 
@@ -158,7 +158,7 @@ const MouseCheck = () => {
                     ? 'bg-emerald-500'
                     : 'bg-card'
               }`}
-              title="Forward (MB5)"
+              title={t('mouse.forwardBtn', 'Forward (MB5)')}
             />
             <div 
               className={`w-2 h-4 rounded-l-md border border-r-0 border-border transition-colors ${
@@ -168,7 +168,7 @@ const MouseCheck = () => {
                     ? 'bg-emerald-500'
                     : 'bg-card'
               }`}
-              title="Back (MB4)"
+              title={t('mouse.backBtn', 'Back (MB4)')}
             />
           </div>
         </div>

@@ -1,7 +1,9 @@
 import React from 'react';
 import { downloadJSON } from '../../utils/reportUtils';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const CompareExport = ({ kA, kB }) => {
+  const { t } = useLanguage();
   if (!kA || !kB) return null;
 
   const handleDownload = () => {
@@ -47,13 +49,13 @@ const CompareExport = ({ kA, kB }) => {
         onClick={handlePrint}
         className="px-4 py-2 bg-card hover:bg-muted/50 border border-border text-foreground font-bold uppercase tracking-wider text-xs rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
       >
-        Print / Save PDF
+        {t('report.printPdf')}
       </button>
       <button 
         onClick={handleDownload}
         className="px-4 py-2 bg-card hover:bg-muted/50 border border-border text-foreground font-bold uppercase tracking-wider text-xs rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
       >
-        Download JSON
+        {t('report.downloadJson')}
       </button>
     </div>
   );

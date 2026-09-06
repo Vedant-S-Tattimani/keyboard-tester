@@ -18,11 +18,8 @@ const Footer = () => {
               <img src="/logo.svg" alt="KeyCheck Logo" className="w-7 h-7 drop-shadow-sm" />
               <span className="text-xl font-black tracking-tighter text-primary uppercase">KeyCheck</span>
             </Link>
-            <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-              A browser-based keyboard testing and diagnostic tool. <br /><br />
-              Test your keyboard.<br />
-              Understand your input.<br />
-              Keep your keyboard data local.
+            <p className="text-muted-foreground text-sm leading-relaxed max-w-xs whitespace-pre-line">
+              {t('footer.brandBio')}
             </p>
           </div>
 

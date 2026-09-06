@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- Root & Language Homepages -->
   <url>
     <loc>https://keyboardtester1.com/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en" />
@@ -17,103 +16,1748 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- 10 Localized Language Homepages -->
   <url>
     <loc>https://keyboardtester1.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en" />
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/hi</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en" />
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/fil</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en" />
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/pt</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en" />
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/id</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en" />
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/uk</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en" />
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/th</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en" />
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/es</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en" />
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/fr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en" />
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en" />
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- Diagnostic & Testing Tools -->
   <url>
     <loc>https://keyboardtester1.com/ghosting-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/ghosting-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/en/ghosting-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/ghosting-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/hi/ghosting-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/ghosting-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fil/ghosting-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/ghosting-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/pt/ghosting-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/ghosting-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/id/ghosting-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/ghosting-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/uk/ghosting-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/ghosting-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/th/ghosting-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/ghosting-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/es/ghosting-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/ghosting-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fr/ghosting-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/ghosting-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/de/ghosting-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/ghosting-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/ghosting-test" />
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/typing-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/typing-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/typing-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/typing-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/typing-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/typing-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/typing-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/typing-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/typing-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/typing-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/en/typing-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/typing-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/typing-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/typing-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/typing-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/typing-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/typing-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/typing-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/typing-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/typing-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/hi/typing-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/typing-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/typing-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/typing-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/typing-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/typing-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/typing-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/typing-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/typing-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/typing-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fil/typing-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/typing-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/typing-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/typing-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/typing-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/typing-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/typing-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/typing-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/typing-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/typing-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/pt/typing-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/typing-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/typing-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/typing-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/typing-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/typing-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/typing-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/typing-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/typing-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/typing-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/id/typing-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/typing-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/typing-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/typing-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/typing-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/typing-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/typing-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/typing-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/typing-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/typing-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/uk/typing-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/typing-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/typing-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/typing-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/typing-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/typing-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/typing-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/typing-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/typing-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/typing-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/th/typing-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/typing-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/typing-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/typing-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/typing-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/typing-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/typing-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/typing-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/typing-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/typing-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/es/typing-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/typing-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/typing-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/typing-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/typing-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/typing-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/typing-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/typing-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/typing-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/typing-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fr/typing-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/typing-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/typing-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/typing-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/typing-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/typing-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/typing-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/typing-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/typing-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/typing-test" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/de/typing-test</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/typing-test" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/typing-test" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/typing-test" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/typing-test" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/typing-test" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/typing-test" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/typing-test" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/typing-test" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/typing-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/typing-test" />
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/event-inspector</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/event-inspector" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/en/event-inspector</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/event-inspector" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/hi/event-inspector</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/event-inspector" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fil/event-inspector</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/event-inspector" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/pt/event-inspector</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/event-inspector" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/id/event-inspector</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/event-inspector" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/uk/event-inspector</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/event-inspector" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/th/event-inspector</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/event-inspector" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/es/event-inspector</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/event-inspector" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fr/event-inspector</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/event-inspector" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/de/event-inspector</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/event-inspector" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/event-inspector" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/compare</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/compare" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/compare" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/compare" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/compare" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/compare" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/compare" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/compare" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/compare" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/compare" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/compare" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/compare" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/en/compare</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/compare" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/compare" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/compare" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/compare" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/compare" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/compare" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/compare" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/compare" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/compare" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/compare" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/compare" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/hi/compare</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/compare" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/compare" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/compare" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/compare" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/compare" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/compare" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/compare" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/compare" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/compare" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/compare" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/compare" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fil/compare</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/compare" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/compare" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/compare" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/compare" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/compare" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/compare" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/compare" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/compare" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/compare" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/compare" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/compare" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/pt/compare</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/compare" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/compare" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/compare" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/compare" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/compare" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/compare" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/compare" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/compare" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/compare" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/compare" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/compare" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/id/compare</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/compare" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/compare" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/compare" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/compare" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/compare" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/compare" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/compare" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/compare" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/compare" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/compare" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/compare" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/uk/compare</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/compare" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/compare" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/compare" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/compare" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/compare" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/compare" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/compare" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/compare" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/compare" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/compare" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/compare" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/th/compare</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/compare" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/compare" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/compare" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/compare" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/compare" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/compare" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/compare" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/compare" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/compare" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/compare" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/compare" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/es/compare</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/compare" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/compare" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/compare" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/compare" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/compare" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/compare" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/compare" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/compare" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/compare" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/compare" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/compare" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fr/compare</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/compare" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/compare" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/compare" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/compare" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/compare" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/compare" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/compare" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/compare" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/compare" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/compare" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/compare" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/de/compare</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/compare" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/compare" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/compare" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/compare" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/compare" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/compare" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/compare" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/compare" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/compare" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/compare" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/compare" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/keyboard-limitations</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-limitations" />
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/en/keyboard-limitations</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/hi/keyboard-limitations</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fil/keyboard-limitations</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/pt/keyboard-limitations</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/id/keyboard-limitations</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/uk/keyboard-limitations</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/th/keyboard-limitations</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/es/keyboard-limitations</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fr/keyboard-limitations</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/de/keyboard-limitations</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-limitations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-limitations" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/how-testing-works</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/how-testing-works" />
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/en/how-testing-works</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/how-testing-works" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/hi/how-testing-works</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/how-testing-works" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fil/how-testing-works</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/how-testing-works" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/pt/how-testing-works</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/how-testing-works" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/id/how-testing-works</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/how-testing-works" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/uk/how-testing-works</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/how-testing-works" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/th/how-testing-works</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/how-testing-works" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/es/how-testing-works</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/how-testing-works" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fr/how-testing-works</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/how-testing-works" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/de/how-testing-works</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/how-testing-works" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/how-testing-works" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/keyboard-layouts</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-layouts" />
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/en/keyboard-layouts</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/hi/keyboard-layouts</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fil/keyboard-layouts</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/pt/keyboard-layouts</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/id/keyboard-layouts</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/uk/keyboard-layouts</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/th/keyboard-layouts</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/es/keyboard-layouts</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fr/keyboard-layouts</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/de/keyboard-layouts</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/keyboard-layouts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/keyboard-layouts" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/accessibility</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/accessibility" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/accessibility" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/accessibility" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/accessibility" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/accessibility" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/accessibility" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/accessibility" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/accessibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/accessibility" />
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/en/accessibility</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/accessibility" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/accessibility" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/accessibility" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/accessibility" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/accessibility" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/accessibility" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/accessibility" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/accessibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/accessibility" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/hi/accessibility</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/accessibility" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/accessibility" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/accessibility" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/accessibility" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/accessibility" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/accessibility" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/accessibility" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/accessibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/accessibility" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fil/accessibility</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/accessibility" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/accessibility" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/accessibility" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/accessibility" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/accessibility" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/accessibility" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/accessibility" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/accessibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/accessibility" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/pt/accessibility</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/accessibility" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/accessibility" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/accessibility" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/accessibility" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/accessibility" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/accessibility" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/accessibility" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/accessibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/accessibility" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/id/accessibility</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/accessibility" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/accessibility" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/accessibility" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/accessibility" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/accessibility" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/accessibility" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/accessibility" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/accessibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/accessibility" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/uk/accessibility</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/accessibility" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/accessibility" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/accessibility" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/accessibility" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/accessibility" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/accessibility" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/accessibility" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/accessibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/accessibility" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/th/accessibility</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/accessibility" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/accessibility" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/accessibility" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/accessibility" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/accessibility" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/accessibility" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/accessibility" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/accessibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/accessibility" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/es/accessibility</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/accessibility" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/accessibility" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/accessibility" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/accessibility" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/accessibility" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/accessibility" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/accessibility" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/accessibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/accessibility" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fr/accessibility</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/accessibility" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/accessibility" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/accessibility" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/accessibility" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/accessibility" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/accessibility" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/accessibility" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/accessibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/accessibility" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/de/accessibility</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/accessibility" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/accessibility" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/accessibility" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/accessibility" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/accessibility" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/accessibility" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/accessibility" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/accessibility" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/accessibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/accessibility" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://keyboardtester1.com/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/privacy" />
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/hi/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fil/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/pt/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/id/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/uk/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/th/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/es/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/fr/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keyboardtester1.com/de/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keyboardtester1.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://keyboardtester1.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="fil" href="https://keyboardtester1.com/fil/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://keyboardtester1.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://keyboardtester1.com/id/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://keyboardtester1.com/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://keyboardtester1.com/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://keyboardtester1.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://keyboardtester1.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://keyboardtester1.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://keyboardtester1.com/en/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

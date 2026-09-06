@@ -41,8 +41,8 @@ const GhostingTest = () => {
             </div>
             
             <div className="text-[11px] text-muted-foreground leading-relaxed p-3 bg-muted/30 rounded-lg border border-border/50">
-              <strong className="block mb-1 text-card-foreground">{t('ghosting.browserEvents', 'Browser key events received')}</strong>
-              This test measures simultaneous key input successfully delivered to the browser.
+              <strong className="block mb-1 text-card-foreground">{t('ghosting.browserEventsTitle')}</strong>
+              {t('ghosting.browserEventsDesc')}
             </div>
           </div>
 
@@ -51,7 +51,7 @@ const GhostingTest = () => {
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">{t('ghosting.currentlyHeld')}</h2>
               <span className="text-sm font-mono text-muted-foreground bg-muted/50 px-2 py-1 rounded-md border border-border/50">
-                {pressedKeys.size} Held
+                {pressedKeys.size} {t('ghosting.held')}
               </span>
             </div>
             
@@ -120,19 +120,21 @@ const GhostingTest = () => {
 
           {/* Education Panel */}
           <div className="flex flex-col p-6 bg-card border border-border rounded-xl shadow-sm md:col-span-2">
-            <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-4 font-semibold">{t('ghosting.whatIsGhosting', 'What is Keyboard Ghosting?')}</h2>
+            <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-4 font-semibold">{t('ghosting.whatIsGhosting')}</h2>
             
             <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
               <p>
-                <strong className="text-card-foreground">Key Rollover (KRO)</strong> defines the maximum number of keys that can be simultaneously registered by a keyboard. A keyboard with "N-Key Rollover" (NKRO) can theoretically register every single key at once.
+                <strong className="text-card-foreground">{t('ghosting.kroTitle')}: </strong>
+                {t('ghosting.kroDesc')}
               </p>
               <p>
-                <strong className="text-card-foreground">Ghosting</strong> occurs when simultaneous keystrokes inadvertently cause the keyboard's internal circuitry matrix to misinterpret or drop signals. Many budget and laptop keyboards exhibit ghosting limit constraints, particularly for combinations outside the WASD cluster.
+                <strong className="text-card-foreground">{t('ghosting.ghostingDefTitle')}: </strong>
+                {t('ghosting.ghostingDefDesc')}
               </p>
               <div className="p-4 bg-muted/20 border border-border rounded-lg mt-4">
-                <strong className="text-card-foreground text-xs uppercase tracking-wider mb-2 block">Browser Limitations</strong>
+                <strong className="text-card-foreground text-xs uppercase tracking-wider mb-2 block">{t('ghosting.browserLimitsTitle')}</strong>
                 <p className="text-xs">
-                  This test measures simultaneous key events received by your browser. It cannot directly inspect the keyboard's electrical matrix. If a combination fails to register, it may indicate hardware ghosting, but it could also be caused by standard USB rollover limits or operating-system shortcut interception.
+                  {t('ghosting.browserLimitsDesc')}
                 </p>
               </div>
             </div>

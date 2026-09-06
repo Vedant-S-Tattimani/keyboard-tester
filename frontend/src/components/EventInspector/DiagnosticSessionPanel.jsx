@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const DiagnosticSessionPanel = ({
   diagnostic,
@@ -6,6 +7,7 @@ const DiagnosticSessionPanel = ({
   onStop,
   onReset
 }) => {
+  const { t } = useLanguage();
   const [expanded, setExpanded] = useState(false);
   
   const { isActive, startedAt, counters, anomalies, holdDurations } = diagnostic;
@@ -20,9 +22,9 @@ const DiagnosticSessionPanel = ({
     <div className="bg-card border border-border rounded-xl p-6 shadow-sm mb-6 flex flex-col gap-4 transition-[shadow,border-color]">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
-          <h2 className="text-xl font-bold tracking-tight uppercase">Event Diagnostics</h2>
+          <h2 className="text-xl font-bold tracking-tight uppercase">{t('diagnostic.eventDiagnostics')}</h2>
           <p className="text-sm text-muted-foreground">
-             Analyze browser-level event behavior over a test session.
+             {t('diagnostic.sessionDesc')}
           </p>
         </div>
         
@@ -32,7 +34,7 @@ const DiagnosticSessionPanel = ({
               onClick={onStart}
               className="px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 font-bold uppercase tracking-wider text-xs rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
             >
-              Start Diagnostic
+              {t('diagnostic.start')}
             </button>
           )}
           {isActive && (
@@ -40,7 +42,7 @@ const DiagnosticSessionPanel = ({
               onClick={onStop}
               className="px-4 py-2 bg-amber-500/20 text-amber-500 hover:bg-amber-500/30 border border-amber-500/50 font-bold uppercase tracking-wider text-xs rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
             >
-              Stop Diagnostic
+              {t('diagnostic.stop')}
             </button>
           )}
           {hasStarted && !isActive && (
@@ -48,7 +50,7 @@ const DiagnosticSessionPanel = ({
               onClick={onReset}
               className="px-4 py-2 bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border font-bold uppercase tracking-wider text-xs rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
             >
-              Reset
+              {t('diagnostic.reset')}
             </button>
           )}
         </div>
@@ -58,30 +60,30 @@ const DiagnosticSessionPanel = ({
         <>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-2">
              <div className="bg-muted/10 border border-border/50 rounded-lg p-4 text-center">
-                <span className="block text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-1">Events Observed</span>
+                <span className="block text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-1">{t('diagnostic.eventsObserved')}</span>
                 <span className="font-mono text-xl font-bold">{counters.events}</span>
              </div>
              <div className="bg-muted/10 border border-border/50 rounded-lg p-4 text-center">
-                <span className="block text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-1">Paired Key Events</span>
+                <span className="block text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-1">{t('diagnostic.pairedKeyEvents')}</span>
                 <span className="font-mono text-xl font-bold">{counters.paired} / {counters.keydown - counters.repeats}</span>
              </div>
              <div className="bg-muted/10 border border-border/50 rounded-lg p-4 text-center">
-                <span className="block text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-1">Repeated Keydowns</span>
+                <span className="block text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-1">{t('diagnostic.repeatedKeydowns')}</span>
                 <span className="font-mono text-xl font-bold">{counters.repeats}</span>
              </div>
              <div className="bg-muted/10 border border-border/50 rounded-lg p-4 text-center">
-                <span className="block text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-1">Avg Hold Duration</span>
+                <span className="block text-[10px] uppercase tracking-widest text-muted-foreground font-semibold mb-1">{t('diagnostic.avgHoldDuration')}</span>
                 <span className="font-mono text-xl font-bold">{avgHold} ms</span>
              </div>
           </div>
           
           <div className="grid grid-cols-2 gap-4">
              <div className="bg-muted/10 border border-border/50 rounded-lg p-4 flex justify-between items-center">
-                 <span className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">Focus Interruptions</span>
+                 <span className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">{t('diagnostic.focusInterruptions')}</span>
                  <span className={`font-mono font-bold ${counters.focusInterruptions > 0 ? 'text-amber-500' : 'text-foreground'}`}>{counters.focusInterruptions}</span>
              </div>
              <div className="bg-muted/10 border border-border/50 rounded-lg p-4 flex justify-between items-center">
-                 <span className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">Anomalies Detected</span>
+                 <span className="text-xs uppercase tracking-widest text-muted-foreground font-semibold">{t('diagnostic.anomaliesDetected')}</span>
                  <span className={`font-mono font-bold ${anomalies.length > 0 ? 'text-amber-500' : 'text-green-500'}`}>{anomalies.length}</span>
              </div>
           </div>
@@ -91,7 +93,7 @@ const DiagnosticSessionPanel = ({
               onClick={() => setExpanded(!expanded)}
               className="text-xs text-primary hover:underline font-bold uppercase tracking-wider text-start mt-2"
             >
-              {expanded ? 'Hide Advanced Details' : 'Show Advanced Details'}
+              {expanded ? t('diagnostic.hideDetails') : t('diagnostic.showDetails')}
             </button>
           )}
 
@@ -99,7 +101,7 @@ const DiagnosticSessionPanel = ({
              <div className="mt-4 flex flex-col gap-6 p-4 bg-background border border-border rounded-lg">
                 {anomalies.length > 0 && (
                    <div>
-                      <h3 className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3">Detected Anomalies</h3>
+                      <h3 className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3">{t('diagnostic.detectedAnomalies')}</h3>
                       <div className="flex flex-col gap-2 max-h-64 overflow-y-auto pe-">
                          {anomalies.map((anom, idx) => (
                            <div key={idx} className="flex flex-col gap-1 text-sm bg-muted/20 border border-border p-3 rounded">
@@ -119,7 +121,7 @@ const DiagnosticSessionPanel = ({
                 
                 {holdDurations.length > 0 && (
                    <div>
-                      <h3 className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3">Observed Key Hold Durations</h3>
+                      <h3 className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3">{t('diagnostic.observedKeyHold')}</h3>
                       <div className="grid grid-cols-2 md:grid-cols-5 gap-2">
                           {(() => {
                              const cats = { '< 50ms': 0, '50-100ms': 0, '100-250ms': 0, '250-500ms': 0, '> 500ms': 0 };

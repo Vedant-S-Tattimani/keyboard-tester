@@ -1,7 +1,9 @@
 import React from 'react';
 import { useSound } from '../../contexts/SoundContext';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const SoundSelector = () => {
+  const { t } = useLanguage();
   const { soundEnabled, toggleSound, preset, setPreset, playSound } = useSound();
 
   const handlePresetChange = (e) => {
@@ -20,8 +22,8 @@ const SoundSelector = () => {
             playSound('KeyA');
           }
         }}
-        title={soundEnabled ? 'Mute Key Sound' : 'Enable Key Sound'}
-        aria-label={soundEnabled ? 'Mute Key Sound' : 'Enable Key Sound'}
+        title={soundEnabled ? t('sound.mute') : t('sound.enable')}
+        aria-label={soundEnabled ? t('sound.mute') : t('sound.enable')}
         className="text-muted-foreground hover:text-foreground transition-colors p-0.5 rounded focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-primary"
       >
         {soundEnabled ? (
@@ -37,7 +39,7 @@ const SoundSelector = () => {
       </button>
 
       <label htmlFor="sound-preset-select" className="sr-only">
-        Key Sound Profile
+        {t('sound.profile')}
       </label>
       <select
         id="sound-preset-select"
@@ -46,9 +48,9 @@ const SoundSelector = () => {
         disabled={!soundEnabled}
         className="bg-transparent text-card-foreground text-xs font-medium uppercase focus-visible:outline-none disabled:opacity-40 cursor-pointer"
       >
-        <option value="mechanical">Click</option>
-        <option value="thock">Thock</option>
-        <option value="typewriter">Typewriter</option>
+        <option value="mechanical">{t('sound.click')}</option>
+        <option value="thock">{t('sound.thock')}</option>
+        <option value="typewriter">{t('sound.typewriter')}</option>
       </select>
     </div>
   );

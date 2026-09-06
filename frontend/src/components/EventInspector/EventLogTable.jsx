@@ -1,4 +1,5 @@
 import React from 'react';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const formatTime = (ts) => {
   // Extract a stable milliseconds representation 
@@ -8,18 +9,20 @@ const formatTime = (ts) => {
 };
 
 const EventLogTable = ({ events, selectedEventId, onSelectEvent }) => {
+  const { t } = useLanguage();
+
   return (
     <div className="w-full bg-card border border-border rounded-xl shadow-sm overflow-hidden flex flex-col h-[500px]">
       <div className="overflow-x-auto">
         <table className="w-full text-start text-sm whitespace-nowrap">
           <thead className="bg-muted/30 border-b border-border sticky top-0 z-10 backdrop-blur-sm">
             <tr>
-              <th className="px-4 py-3 font-semibold w-24">Time</th>
-              <th className="px-4 py-3 font-semibold w-24">Type</th>
-              <th className="px-4 py-3 font-semibold w-20">Key</th>
-              <th className="px-4 py-3 font-semibold">Code</th>
-              <th className="px-4 py-3 font-semibold w-20 text-center">Loc</th>
-              <th className="px-4 py-3 font-semibold w-20 text-center">Repeat</th>
+              <th className="px-4 py-3 font-semibold w-24">{t('inspector.time')}</th>
+              <th className="px-4 py-3 font-semibold w-24">{t('inspector.type')}</th>
+              <th className="px-4 py-3 font-semibold w-20">{t('inspector.key')}</th>
+              <th className="px-4 py-3 font-semibold">{t('inspector.code')}</th>
+              <th className="px-4 py-3 font-semibold w-20 text-center">{t('inspector.loc')}</th>
+              <th className="px-4 py-3 font-semibold w-20 text-center">{t('inspector.repeat')}</th>
             </tr>
           </thead>
         </table>
@@ -31,7 +34,7 @@ const EventLogTable = ({ events, selectedEventId, onSelectEvent }) => {
             {events.length === 0 ? (
               <tr>
                 <td colSpan="6" className="px-4 py-12 text-center text-muted-foreground">
-                  No events captured yet. Press a key to start.
+                  {t('inspector.noEvents')}
                 </td>
               </tr>
             ) : (
@@ -58,7 +61,7 @@ const EventLogTable = ({ events, selectedEventId, onSelectEvent }) => {
                   <td className="px-4 py-2 font-mono text-muted-foreground">{e.code}</td>
                   <td className="px-4 py-2 font-mono text-center w-20 text-muted-foreground">{e.location}</td>
                   <td className="px-4 py-2 font-mono text-center w-20">
-                    {e.repeat ? <span className="text-[10px] uppercase bg-muted px-1.5 py-0.5 rounded font-bold">Yes</span> : <span className="text-muted-foreground/30">-</span>}
+                    {e.repeat ? <span className="text-[10px] uppercase bg-muted px-1.5 py-0.5 rounded font-bold">{t('inspector.yes')}</span> : <span className="text-muted-foreground/30">-</span>}
                   </td>
                 </tr>
               ))

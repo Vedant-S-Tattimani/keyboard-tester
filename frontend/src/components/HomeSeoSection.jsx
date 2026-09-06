@@ -4,7 +4,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { homeSeoContent } from '../i18n/content/homeSeoContent';
 
 function HomeSeoSection() {
-  const { language, getLocalizedPath } = useLanguage();
+  const { language, t, getLocalizedPath } = useLanguage();
   const content = homeSeoContent[language] || homeSeoContent.en;
 
   return (
@@ -45,7 +45,7 @@ function HomeSeoSection() {
                     to={getLocalizedPath('/ghosting-test')} 
                     className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary hover:underline"
                   >
-                    <span>Multi-Key Ghosting Test</span>
+                    <span>{t('nav.multiKeyTest')}</span>
                     <span aria-hidden="true">&rarr;</span>
                   </Link>
                 </div>
@@ -56,25 +56,25 @@ function HomeSeoSection() {
 
         {/* Quick Diagnostic Links Bar */}
         <div className="mt-8 pt-6 border-t border-border/50 flex flex-wrap gap-4 items-center justify-between text-xs text-muted-foreground">
-          <span className="font-semibold uppercase tracking-wider text-card-foreground">Related Diagnostic Tools:</span>
+          <span className="font-semibold uppercase tracking-wider text-card-foreground">{t('footer.toolsInformation', 'Related Diagnostic Tools')}:</span>
           <div className="flex flex-wrap gap-3">
             <Link 
               to={getLocalizedPath('/ghosting-test')} 
               className="px-3 py-1.5 rounded-lg bg-muted/40 hover:bg-muted/80 text-foreground transition-colors font-medium"
             >
-              Multi-Key Rollover Test
+              {t('nav.multiKeyTest')}
             </Link>
             <Link 
               to={getLocalizedPath('/typing-test')} 
               className="px-3 py-1.5 rounded-lg bg-muted/40 hover:bg-muted/80 text-foreground transition-colors font-medium"
             >
-              Typing Speed Test (WPM)
+              {t('nav.typingTest')}
             </Link>
             <Link 
               to={getLocalizedPath('/event-inspector')} 
               className="px-3 py-1.5 rounded-lg bg-muted/40 hover:bg-muted/80 text-foreground transition-colors font-medium"
             >
-              Event Inspector
+              {t('inspector.title')}
             </Link>
           </div>
         </div>

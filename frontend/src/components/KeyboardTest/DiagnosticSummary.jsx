@@ -45,7 +45,7 @@ const DiagnosticSummary = ({
     <div className="w-full flex flex-col p-6 bg-card border border-border rounded-xl shadow-sm">
       <div className="flex justify-between items-start mb-6">
         <div>
-          <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-1 font-semibold">Diagnostic Summary</h2>
+          <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-1 font-semibold">{t('summary.title')}</h2>
           <p aria-live="polite" className={`text-sm font-bold ${statusColor}`}>{statusMessage}</p>
         </div>
         <div className="text-end">
@@ -60,24 +60,24 @@ const DiagnosticSummary = ({
           <span className="text-lg font-mono font-semibold">{testedCount} <span className="text-muted-foreground text-sm">/ {totalRequired}</span></span>
         </div>
         <div>
-          <span className="block text-[10px] text-muted-foreground uppercase tracking-widest mb-1">Completion</span>
+          <span className="block text-[10px] text-muted-foreground uppercase tracking-widest mb-1">{t('summary.completion')}</span>
           <span className="text-lg font-mono font-semibold">{completionPercentage}%</span>
         </div>
         <div>
-          <span className="block text-[10px] text-muted-foreground uppercase tracking-widest mb-1">Mode</span>
+          <span className="block text-[10px] text-muted-foreground uppercase tracking-widest mb-1">{t('summary.mode')}</span>
           <span className="text-lg font-mono font-semibold">{TEST_MODES[modeId]?.label || 'Full'}</span>
         </div>
         <div>
-          <span className="block text-[10px] text-muted-foreground uppercase tracking-widest mb-1">Layout</span>
+          <span className="block text-[10px] text-muted-foreground uppercase tracking-widest mb-1">{t('summary.layout')}</span>
           <span className="text-lg font-mono font-semibold">{layout}</span>
         </div>
       </div>
       
       {!isFinished && (
         <div className="mb-6 p-3 bg-muted/20 border border-border/50 rounded-lg text-center">
-          <span className="text-xs font-bold text-card-foreground uppercase tracking-wider block mb-1">Guided Testing</span>
+          <span className="text-xs font-bold text-card-foreground uppercase tracking-wider block mb-1">{t('summary.guidedTesting')}</span>
           <p className="text-xs text-muted-foreground">
-            {TEST_MODES[modeId]?.description || 'Test every supported key.'}
+            {t('summary.guidedTestingDesc')}
           </p>
         </div>
       )}
@@ -101,13 +101,13 @@ const DiagnosticSummary = ({
             onClick={onReset}
             className="flex-1 py-3 bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border rounded-md font-bold uppercase tracking-wider transition-colors"
           >
-            Test Again
+            {t('summary.testAgain')}
           </button>
           <button 
             onClick={() => setShowReport(true)}
             className="flex-1 py-3 bg-primary text-primary-foreground hover:bg-primary/90 rounded-md font-bold uppercase tracking-wider transition-colors"
           >
-            Generate Report
+            {t('summary.generateReport')}
           </button>
         </div>
       )}

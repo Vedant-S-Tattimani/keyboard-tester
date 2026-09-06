@@ -124,10 +124,9 @@ const EventInspector = () => {
       {/* Educational Section */}
       <section className="bg-card border border-border rounded-xl p-6 shadow-sm max-w-4xl mx-auto w-full space-y-6">
         <div>
-          <h2 className="text-xl font-bold mb-2">{t('inspector.understandingEvents', 'Understanding Keyboard Events')}</h2>
+          <h2 className="text-xl font-bold mb-2">{t('inspector.understandingEvents')}</h2>
           <p className="text-sm text-muted-foreground">
-            Web browsers distinguish between the physical key you pressed and the character it produces. 
-            This tool helps visualize how those two concepts split inside the Javascript Event API.
+            {t('inspector.understandingDesc')}
           </p>
         </div>
 
@@ -135,20 +134,20 @@ const EventInspector = () => {
           <div className="bg-muted/20 p-4 rounded-lg border border-border/50">
             <h3 className="font-semibold mb-2 font-mono text-sm">event.code</h3>
             <p className="text-sm text-muted-foreground mb-3">
-              Represents the <strong>physical key position</strong> identifier on the keyboard hardware, completely ignoring software layout (like QWERTY vs AZERTY) and modifiers (like Shift).
+              {t('inspector.eventCodeDesc')}
             </p>
             <div className="text-xs font-mono bg-background p-2 rounded border border-border">
-              Physical "A" key → "KeyA"
+              {t('inspector.physicalA')}
             </div>
           </div>
 
           <div className="bg-muted/20 p-4 rounded-lg border border-border/50">
             <h3 className="font-semibold mb-2 font-mono text-sm">event.key</h3>
             <p className="text-sm text-muted-foreground mb-3">
-              Represents the <strong>interpreted character value</strong>. This changes based on your operating system's selected language layout and active modifiers (like CapsLock or Shift).
+              {t('inspector.eventKeyDesc')}
             </p>
             <div className="text-xs font-mono bg-background p-2 rounded border border-border">
-              Shift + Physical "A" key → "A" (or "Q" on AZERTY)
+              {t('inspector.shiftA')}
             </div>
           </div>
         </div>
@@ -158,10 +157,9 @@ const EventInspector = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
           </div>
           <div>
-            <h4 className="text-sm font-bold text-amber-500 uppercase tracking-wider mb-1">System Shortcut Limitations</h4>
+            <h4 className="text-sm font-bold text-amber-500 uppercase tracking-wider mb-1">{t('inspector.systemShortcutLimits')}</h4>
             <p className="text-xs text-muted-foreground leading-relaxed">
-              Some operating-system and browser shortcuts (such as <kbd className="font-mono bg-background px-1 border border-border rounded">Ctrl+W</kbd>, <kbd className="font-mono bg-background px-1 border border-border rounded">Alt+Tab</kbd>, or Windows/Meta keys) may be intercepted directly by your OS before the webpage ever receives them. 
-              The browser cannot bypass these security restrictions. If a key does not log an event here, it is being swallowed by your system sandbox.
+              {t('inspector.systemShortcutLimitsDesc')}
             </p>
           </div>
         </div>
