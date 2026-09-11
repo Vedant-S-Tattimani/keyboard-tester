@@ -31,6 +31,15 @@ const Footer = () => {
             <Link to={getLocalizedPath('/typing-test')} className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('nav.typingTest', 'Typing Test')}</Link>
             <Link to={getLocalizedPath('/event-inspector')} className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('inspector.title', 'Event Inspector')}</Link>
             <Link to={getLocalizedPath('/compare')} className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">{t('compare.title', 'Keyboard Comparison')}</Link>
+            <a 
+              href="https://screen-tester.com/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit inline-flex items-center gap-1"
+            >
+              <span>{t('footer.screenTester', 'Screen Tester')}</span>
+              <span className="text-xs">↗</span>
+            </a>
           </div>
 
           {/* Tools & Info Links */}
@@ -54,6 +63,15 @@ const Footer = () => {
             <h3 className="font-bold uppercase tracking-wider text-xs mt-4 mb-1">{t('footer.resources', 'Resources')}</h3>
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit">
               {t('footer.github', 'GitHub')}
+            </a>
+            <a 
+              href="https://screen-tester.com/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-sm text-muted-foreground hover:text-foreground hover:underline transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-card rounded-sm w-fit inline-flex items-center gap-1"
+            >
+              <span>Screen-Tester.com</span>
+              <span className="text-xs">↗</span>
             </a>
           </div>
 

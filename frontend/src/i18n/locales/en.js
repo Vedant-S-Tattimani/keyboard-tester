@@ -3,6 +3,8 @@ export const en = {
   'nav.keyboardTest': 'Keyboard Test',
   'nav.multiKeyTest': 'Multi-Key Test',
   'nav.typingTest': 'Typing Test',
+  'nav.screenTester': 'Screen Tester',
+  'nav.screenTesterTitle': 'Screen Tester – Online Screen & Monitor Test',
   
   // Home
   'home.title': 'Test Your Keyboard',
@@ -136,6 +138,13 @@ export const en = {
   'footer.typingTestDesc': 'Measure typing speed and accuracy using a structured text passage.',
   'footer.eventInspectorDesc': 'Inspect browser keyboard events directly and monitor how they are dispatched.',
   'footer.compareDesc': 'Compare two separate keyboard test sessions to evaluate differences in layout or coverage.',
+  'footer.screenTester': 'Screen Tester',
+  'footer.displayBadge': 'Display',
+  'footer.screenTesterDesc': 'Test your monitor for dead pixels, screen burn-in, color accuracy, and refresh rate online at screen-tester.com.',
+  'home.screenBannerTitle': 'Testing Your Monitor Or Display?',
+  'home.screenBannerDesc': 'Check for dead pixels, backlight bleed, color calibration, and screen refresh rate online with Screen Tester.',
+  'home.screenBannerCta': 'Launch Screen Tester',
+  'home.screenBannerBadge': 'Companion Tool',
   'footer.howItWorks': 'How It Works',
   'footer.step1': 'Press a key on your physical keyboard.',
   'footer.step2': 'The browser receives the key event.',
