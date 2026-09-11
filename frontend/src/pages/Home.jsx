@@ -113,7 +113,7 @@ function Home() {
                   {t('home.screenBannerBadge', 'Companion Hardware Tool')}
                 </span>
                 <span className="px-1.5 py-0.5 text-[9px] font-bold uppercase rounded bg-primary/15 text-primary border border-primary/20">
-                  Online Free
+                  {t('home.screenBannerFree', 'Online Free')}
                 </span>
               </div>
               <h3 className="text-base sm:text-lg font-bold text-foreground">

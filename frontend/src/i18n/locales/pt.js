@@ -3,6 +3,8 @@ export const pt = {
   'nav.keyboardTest': 'Teste de Teclado',
   'nav.multiKeyTest': 'Teste Multi-Tecla',
   'nav.typingTest': 'Teste de Digitação',
+  'nav.screenTester': 'Testador de Tela',
+  'nav.screenTesterTitle': 'Testador de Tela – Teste de Monitor e Tela Online',
   
   // Home
   'home.title': 'Teste Seu Teclado',
@@ -136,6 +138,14 @@ export const pt = {
   'footer.typingTestDesc': 'Meça velocidade e precisão de digitação usando textos estruturados.',
   'footer.eventInspectorDesc': 'Inspecione eventos de teclado do navegador diretamente e acompanhe como são disparados.',
   'footer.compareDesc': 'Compare duas sessões distintas de teste para avaliar diferenças de layout ou cobertura.',
+  'footer.screenTester': 'Testador de Tela',
+  'footer.displayBadge': 'Tela',
+  'footer.screenTesterDesc': 'Teste seu monitor para pixels mortos, burn-in, precisão de cores e taxa de atualização em screen-tester.com.',
+  'home.screenBannerTitle': 'Quer testar o seu monitor ou tela?',
+  'home.screenBannerDesc': 'Verifique pixels mortos, vazamento de luz, precisão de cores e taxa de atualização online com o Screen Tester.',
+  'home.screenBannerCta': 'Abrir Screen Tester',
+  'home.screenBannerBadge': 'Ferramenta Complementar',
+  'home.screenBannerFree': 'Online Grátis',
   'footer.howItWorks': 'Como Funciona',
   'footer.step1': 'Pressione uma tecla em seu teclado físico.',
   'footer.step2': 'O navegador recebe o evento da tecla.',

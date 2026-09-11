@@ -3,6 +3,8 @@ export const fil = {
   'nav.keyboardTest': 'Subok ng Keyboard',
   'nav.multiKeyTest': 'Multi-Key Test',
   'nav.typingTest': 'Pagsusulit sa Pag-type',
+  'nav.screenTester': 'Screen Tester',
+  'nav.screenTesterTitle': 'Screen Tester – Online Screen at Monitor Test',
   
   // Home
   'home.title': 'Subukan ang Iyong Keyboard',
@@ -136,6 +138,14 @@ export const fil = {
   'footer.typingTestDesc': 'Sukatin ang bilis at kawastuhan ng pag-type gamit ang maayos na mga talata.',
   'footer.eventInspectorDesc': 'Suriin nang direkta ang mga KeyboardEvent ng browser at alamin kung paano ipinapadala ang mga ito.',
   'footer.compareDesc': 'Ikumpara ang dalawang magkahiwalay na pagsubok sa keyboard upang makita ang pagkakaiba sa layout at saklaw.',
+  'footer.screenTester': 'Screen Tester',
+  'footer.displayBadge': 'Screen',
+  'footer.screenTesterDesc': 'Subukan ang iyong monitor para sa dead pixels, burn-in, kulay, at refresh rate sa screen-tester.com.',
+  'home.screenBannerTitle': 'Gusto mo bang subukan ang iyong monitor o screen?',
+  'home.screenBannerDesc': 'Suriin ang dead pixels, backlight bleed, kulay, at refresh rate ng screen online gamit ang Screen Tester.',
+  'home.screenBannerCta': 'Buksan ang Screen Tester',
+  'home.screenBannerBadge': 'Kasangkapang Tool',
+  'home.screenBannerFree': 'Libreng Online',
   'footer.howItWorks': 'Paano Ito Gumagana',
   'footer.step1': 'Pindutin ang isang susi sa iyong pisikal na keyboard.',
   'footer.step2': 'Tinatanggap ng browser ang event ng pagpindot.',

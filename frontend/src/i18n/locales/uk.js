@@ -3,6 +3,8 @@ export const uk = {
   'nav.keyboardTest': 'Тест Клавіатури',
   'nav.multiKeyTest': 'Тест Мульти-Клавіш',
   'nav.typingTest': 'Тест Друку',
+  'nav.screenTester': 'Тестер Екрана',
+  'nav.screenTesterTitle': 'Тестер Екрана – Онлайн перевірка монітора та дисплея',
   
   // Home
   'home.title': 'Перевірте Свою Клавіатуру',
@@ -136,6 +138,14 @@ export const uk = {
   'footer.typingTestDesc': 'Вимірюйте швидкість і точність друку на якісних текстах.',
   'footer.eventInspectorDesc': 'Досліджуйте сирі KeyboardEvents браузера в реальному часі.',
   'footer.compareDesc': 'Порівнюйте дві окремі сесії для зіставлення покриття або розкладок.',
+  'footer.screenTester': 'Тестер Екрана',
+  'footer.displayBadge': 'Екран',
+  'footer.screenTesterDesc': 'Перевірте свій монітор на биті пікселі, вигоряння, кольори та частоту оновлення на screen-tester.com.',
+  'home.screenBannerTitle': 'Бажаєте перевірити монітор чи екран?',
+  'home.screenBannerDesc': 'Перевірте биті пікселі, засвіти підсвітки, передачу кольору та частоту оновлення онлайн за допомогою Screen Tester.',
+  'home.screenBannerCta': 'Запустити Screen Tester',
+  'home.screenBannerBadge': 'Додатковий інструмент',
+  'home.screenBannerFree': 'Безкоштовно онлайн',
   'footer.howItWorks': 'Як Це Працює',
   'footer.step1': 'Натисніть клавішу на фізичній клавіатурі.',
   'footer.step2': 'Браузер отримує відповідну подію клавіші.',

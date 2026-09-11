@@ -3,6 +3,8 @@ export const id = {
   'nav.keyboardTest': 'Tes Keyboard',
   'nav.multiKeyTest': 'Tes Multi-Tombol',
   'nav.typingTest': 'Tes Mengetik',
+  'nav.screenTester': 'Penguji Layar',
+  'nav.screenTesterTitle': 'Penguji Layar – Uji Layar & Monitor Online',
   
   // Home
   'home.title': 'Tes Keyboard Anda',
@@ -136,6 +138,14 @@ export const id = {
   'footer.typingTestDesc': 'Ukur kecepatan serta ketepatan mengetik menggunakan teks terstruktur.',
   'footer.eventInspectorDesc': 'Periksa KeyboardEvent browser secara langsung dan amati bagaimana event dikirim.',
   'footer.compareDesc': 'Bandingkan dua sesi pengujian terpisah untuk mengevaluasi perbedaan tata letak dan cakupan tombol.',
+  'footer.screenTester': 'Penguji Layar',
+  'footer.displayBadge': 'Layar',
+  'footer.screenTesterDesc': 'Uji monitor Anda dari dead pixel, burn-in, warna, dan refresh rate di screen-tester.com.',
+  'home.screenBannerTitle': 'Ingin menguji monitor atau layar Anda?',
+  'home.screenBannerDesc': 'Periksa dead pixel, backlight bleed, akurasi warna, dan refresh rate layar secara online dengan Screen Tester.',
+  'home.screenBannerCta': 'Buka Screen Tester',
+  'home.screenBannerBadge': 'Alat Pendukung',
+  'home.screenBannerFree': 'Gratis Online',
   'footer.howItWorks': 'Cara Kerja',
   'footer.step1': 'Tekan tombol pada keyboard fisik Anda.',
   'footer.step2': 'Browser menerima event penekanan tombol.',

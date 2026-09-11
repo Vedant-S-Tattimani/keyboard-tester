@@ -3,6 +3,8 @@ export const de = {
   'nav.keyboardTest': 'Tastatur-Test',
   'nav.multiKeyTest': 'Mehrfachtasten-Test',
   'nav.typingTest': 'Schreibtest',
+  'nav.screenTester': 'Bildschirm-Tester',
+  'nav.screenTesterTitle': 'Bildschirm-Tester – Online Monitor- & Display-Test',
   
   // Home
   'home.title': 'Testen Sie Ihre Tastatur',
@@ -136,6 +138,14 @@ export const de = {
   'footer.typingTestDesc': 'Ermitteln Sie Ihre Schreibgeschwindigkeit und Treffsicherheit anhand flüssiger Beispieltexte.',
   'footer.eventInspectorDesc': 'Analysieren Sie native Tastatur-Events Ihres Browsers und deren Weiterleitung im Detail.',
   'footer.compareDesc': 'Vergleichen Sie zwei eigenständige Testläufe, um Unterschiede in Layout und Tastenabdeckung zu sehen.',
+  'footer.screenTester': 'Bildschirm-Tester',
+  'footer.displayBadge': 'Monitor',
+  'footer.screenTesterDesc': 'Testen Sie Ihren Bildschirm auf tote Pixel, Einbrennen, Farben und Bildwiederholrate auf screen-tester.com.',
+  'home.screenBannerTitle': 'Möchten Sie Ihren Monitor oder Bildschirm testen?',
+  'home.screenBannerDesc': 'Prüfen Sie Pixelfehler, Backlight-Bleeding, Farbtreue und Bildwiederholrate online mit Screen Tester.',
+  'home.screenBannerCta': 'Screen Tester starten',
+  'home.screenBannerBadge': 'Zusatzwerkzeug',
+  'home.screenBannerFree': 'Kostenlos Online',
   'footer.howItWorks': 'So Funktioniert Es',
   'footer.step1': 'Drücken Sie eine Taste auf Ihrer Tastatur.',
   'footer.step2': 'Der Browser empfängt das Tastatur-Event.',

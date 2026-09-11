@@ -3,6 +3,8 @@ export const fr = {
   'nav.keyboardTest': 'Test de Clavier',
   'nav.multiKeyTest': 'Test Multi-Touches',
   'nav.typingTest': 'Test de Frappe',
+  'nav.screenTester': 'Testeur d\'Écran',
+  'nav.screenTesterTitle': 'Testeur d\'Écran – Test d\'Écran et Moniteur en Ligne',
   
   // Home
   'home.title': 'Testez votre Clavier',
@@ -136,6 +138,14 @@ export const fr = {
   'footer.typingTestDesc': 'Calculez votre vitesse et votre justesse à l\'aide d\'extraits de texte soignés.',
   'footer.eventInspectorDesc': 'Examinez en direct les KeyboardEvents envoyés par le navigateur pour chaque action.',
   'footer.compareDesc': 'Confrontez deux sessions de test distinctes pour observer les écarts de couverture ou de disposition.',
+  'footer.screenTester': 'Testeur d\'Écran',
+  'footer.displayBadge': 'Écran',
+  'footer.screenTesterDesc': 'Testez votre moniteur : pixels morts, rémanence, précision des couleurs et taux de rafraîchissement sur screen-tester.com.',
+  'home.screenBannerTitle': 'Vous souhaitez tester votre écran ou moniteur ?',
+  'home.screenBannerDesc': 'Vérifiez les pixels morts, les fuites de lumière, le rendu des couleurs et le taux de rafraîchissement en ligne avec Screen Tester.',
+  'home.screenBannerCta': 'Lancer Screen Tester',
+  'home.screenBannerBadge': 'Outil Complémentaire',
+  'home.screenBannerFree': 'En Ligne Gratuit',
   'footer.howItWorks': 'Comment Ça Marche',
   'footer.step1': 'Pressez une touche sur votre clavier physique.',
   'footer.step2': 'Le navigateur intercepte l\'événement correspondant.',

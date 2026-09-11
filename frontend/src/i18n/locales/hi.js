@@ -3,6 +3,8 @@ export const hi = {
   'nav.keyboardTest': 'कीबोर्ड टेस्ट',
   'nav.multiKeyTest': 'मल्टी-की टेस्ट',
   'nav.typingTest': 'टाइपिंग टेस्ट',
+  'nav.screenTester': 'स्क्रीन टेस्टर',
+  'nav.screenTesterTitle': 'स्क्रीन टेस्टर – ऑनलाइन स्क्रीन और मॉनिटर टेस्ट',
   
   // Home
   'home.title': 'अपने कीबोर्ड का परीक्षण करें',
@@ -136,6 +138,14 @@ export const hi = {
   'footer.typingTestDesc': 'विस्तृत पाठ अनुच्छेदों के माध्यम से अपनी टाइपिंग गति और सटीकता मापें।',
   'footer.eventInspectorDesc': 'ब्राउज़र के कीबोर्ड इवेंट्स की सीधे निगरानी करें और देखें कि वे कैसे काम करते हैं।',
   'footer.compareDesc': 'लेआउट या कवरेज में अंतर का मूल्यांकन करने के लिए दो अलग-अलग परीक्षण सत्रों की तुलना करें।',
+  'footer.screenTester': 'स्क्रीन टेस्टर',
+  'footer.displayBadge': 'डिस्प्ले',
+  'footer.screenTesterDesc': 'screen-tester.com पर अपने मॉनिटर के डेड पिक्सल, स्क्रीन बर्न-इन, रंगों और रिफ्रेश रेट की जांच करें।',
+  'home.screenBannerTitle': 'क्या आप अपने मॉनिटर या स्क्रीन की जांच करना चाहते हैं?',
+  'home.screenBannerDesc': 'स्क्रीन टेस्टर के साथ डेड पिक्सेल, बैकलाइट ब्लीड, रंग सटीकता और स्क्रीन रिफ्रेश रेट की ऑनलाइन जांच करें।',
+  'home.screenBannerCta': 'स्क्रीन टेस्टर शुरू करें',
+  'home.screenBannerBadge': 'अतिरिक्त टूल',
+  'home.screenBannerFree': 'मुफ़्त ऑनलाइन',
   'footer.howItWorks': 'यह कैसे काम करता है',
   'footer.step1': 'अपने भौतिक कीबोर्ड पर कोई कुंजी दबाएं।',
   'footer.step2': 'ब्राउज़र को की-इवेंट प्राप्त होता है।',

@@ -145,6 +145,7 @@ export const en = {
   'home.screenBannerDesc': 'Check for dead pixels, backlight bleed, color calibration, and screen refresh rate online with Screen Tester.',
   'home.screenBannerCta': 'Launch Screen Tester',
   'home.screenBannerBadge': 'Companion Tool',
+  'home.screenBannerFree': 'Online Free',
   'footer.howItWorks': 'How It Works',
   'footer.step1': 'Press a key on your physical keyboard.',
   'footer.step2': 'The browser receives the key event.',

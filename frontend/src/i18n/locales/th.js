@@ -3,6 +3,8 @@ export const th = {
   'nav.keyboardTest': 'ทดสอบคีย์บอร์ด',
   'nav.multiKeyTest': 'ทดสอบหลายปุ่มพร้อมกัน',
   'nav.typingTest': 'ทดสอบพิมพ์เร็ว',
+  'nav.screenTester': 'ทดสอบหน้าจอ',
+  'nav.screenTesterTitle': 'ทดสอบหน้าจอ – ทดสอบหน้าจอและจอมอนิเตอร์ออนไลน์',
   
   // Home
   'home.title': 'ทดสอบคีย์บอร์ดของคุณ',
@@ -136,6 +138,14 @@ export const th = {
   'footer.typingTestDesc': 'วัดความเร็วและความแม่นยำในการพิมพ์ด้วยข้อความที่คัดสรรมาเป็นอย่างดี',
   'footer.eventInspectorDesc': 'ตรวจสอบ KeyboardEvent ดิบของเบราว์เซอร์และดูวิธีการส่งค่าแบบเรียลไทม์',
   'footer.compareDesc': 'เปรียบเทียบผลการทดสอบคีย์บอร์ดสองรอบเพื่อดูความแตกต่างของเลย์เอาต์และความครอบคลุม',
+  'footer.screenTester': 'ทดสอบหน้าจอ',
+  'footer.displayBadge': 'หน้าจอ',
+  'footer.screenTesterDesc': 'ทดสอบจอมอนิเตอร์ของคุณสำหรับจุดพิกเซลเสีย, ภาพค้าง, ความแม่นยำของสี และอัตรารีเฟรชเรตที่ screen-tester.com',
+  'home.screenBannerTitle': 'ต้องการทดสอบหน้าจอหรือจอมอนิเตอร์ของคุณหรือไม่?',
+  'home.screenBannerDesc': 'ตรวจสอบจุดพิกเซลเสีย (Dead Pixel), แสงรั่ว, ความแม่นยำของสี และอัตรารีเฟรชเรตออนไลน์ด้วย Screen Tester',
+  'home.screenBannerCta': 'เปิดใช้งาน Screen Tester',
+  'home.screenBannerBadge': 'เครื่องมือเสริม',
+  'home.screenBannerFree': 'ออนไลน์ฟรี',
   'footer.howItWorks': 'วิธีการทำงาน',
   'footer.step1': 'กดปุ่มบนคีย์บอร์ดจริงของคุณ',
   'footer.step2': 'เบราว์เซอร์รับอีเวนต์การกดปุ่ม',

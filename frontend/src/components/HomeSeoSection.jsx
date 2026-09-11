@@ -80,7 +80,7 @@ function HomeSeoSection() {
               href="https://screen-tester.com/" 
               target="_blank" 
               rel="noopener noreferrer" 
-              title="Test your display for dead pixels, screen bleed, and refresh rate"
+              title={t('nav.screenTesterTitle', 'Screen Tester – Online Screen & Monitor Test')}
               className="px-3 py-1.5 rounded-lg bg-muted/40 hover:bg-muted/80 text-foreground transition-colors font-medium inline-flex items-center gap-1.5 group"
             >
               <span>{t('nav.screenTester', 'Screen Tester')}</span>
